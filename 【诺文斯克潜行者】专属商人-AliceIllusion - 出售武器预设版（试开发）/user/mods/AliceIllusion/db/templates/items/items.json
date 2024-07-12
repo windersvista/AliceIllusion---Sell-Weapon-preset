@@ -1,0 +1,3601 @@
+{
+    "templates": {
+        "GoblinsIfak": {
+            "_id": "GoblinsIfak",
+            "_name": "item_meds_superifak",
+            "_parent": "5448f39d4bdc2d0a728b4568",
+            "_type": "Item",
+            "_props": {
+                "Name": "Goblin's IFAK",
+                "ShortName": "Goblin's IFAK",
+                "Description": "Why waste time wondering if it's got what you need? This one always does.",
+                "Weight": 0.8,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "Rarity": "Rare",
+                "SpawnChance": 10,
+                "CreditsPrice": 1000,
+                "ItemSound": "med_medkit",
+                "Prefab": {
+                    "path": "goblinsifak_loot.goblin",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "goblinsifak.goblin",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 25,
+                "ExamineExperience": 10,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 2,
+                "DiscardingBlock": false,
+                "medUseTime": 6,
+                "medEffectType": "duringUse",
+                "MaxHpResource": 700,
+                "hpResourceRate": 60,
+                "StimulatorBuffs": "",
+                "effects_health": {
+                    "Hydration": {
+                        "value": 25
+                    },
+                    "Energy": {
+                        "value": 15
+                    }
+                },
+                "effects_damage": {
+                    "LightBleeding": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 10,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "Intoxication": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "RadExposure": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "HeavyBleeding": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 75
+                    },
+                    "DestroyedPart": {
+                        "delay": 0,
+                        "duration": 0,
+                        "healthPenaltyMin": 50,
+                        "healthPenaltyMax": 60
+                    },
+                    "Fracture": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0
+                    },
+                    "Contusion": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0
+                    },
+                    "Pain": {
+                        "delay": 0,
+                        "duration": 180,
+                        "fadeOut": 0
+                    }
+                }
+            },
+            "_proto": "544fb45d4bdc2dee738b4568"
+        },
+        "GoblinsMedCase": {
+            "_id": "GoblinsMedCase",
+            "_name": "item_container_supermed",
+            "_parent": "5795f317245977243854e041",
+            "_type": "Item",
+            "_props": {
+                "Name": "Abuela's Pill Box",
+                "ShortName": "Abuela's Pill Box",
+                "Description": "Abuela stored all her important pills in here.",
+                "Weight": 0.5,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "Rarity": "Superrare",
+                "SpawnChance": 1,
+                "CreditsPrice": 15000,
+                "ItemSound": "keys",
+                "Prefab": {
+                    "path": "goblinmedcase.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 2,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5b7c710788a4506dec015959",
+                        "_parent": "GoblinsMedCase",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["57864c8c245977548867e7f1", "543be5664bdc2dd4348b4569"],
+                                    "ExcludedFilter": []
+                                }
+                            ],
+                            "cellsH": 14,
+                            "cellsV": 14,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "TagColor": 0,
+                "TagName": ""
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "GoblinsBoltHole": {
+            "_id": "GoblinsBoltHole",
+            "_name": "item_container_superstorage",
+            "_parent": "5795f317245977243854e041",
+            "_type": "Item",
+            "_props": {
+                "Name": "Tio's Closet",
+                "ShortName": "Tio's Closet",
+                "Description": "Now you too can keep every little thing. Just like my Tio.",
+                "Weight": 0.5,
+                "BackgroundColor": "orange",
+                "Width": 2,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "Rarity": "Superrare",
+                "SpawnChance": 1,
+                "CreditsPrice": 115000,
+                "ItemSound": "keys",
+                "Prefab": {
+                    "path": "tioscloset.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": true,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 0,
+                "ExamineExperience": 0,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": false,
+                "CanRequireOnRagfair": false,
+                "BannedFromRagfair": true,
+                "ConflictingItems": [],
+                "FixedPrice": false,
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "ChangePriceCoef": 1,
+                "AllowSpawnOnLocations": [],
+                "SendToClient": false,
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5b7c710788a4506dec015959",
+                        "_parent": "GoblinsBoltHole",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["GoblinsBoltHole"]
+                                }
+                            ],
+                            "cellsH": 20,
+                            "cellsV": 16,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": false,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "TagColor": 0,
+                "TagName": ""
+            },
+            "_proto": "5c0a840b86f7742ffa4f2482"
+        },
+        "GoblinsBackpack": {
+            "_id": "GoblinsBackpack",
+            "_name": "backpack_Goblin",
+            "_parent": "5448e53e4bdc2d60728b4567",
+            "_type": "Item",
+            "_props": {
+                "Name": "Treasure Bag",
+                "ShortName": "Treasure Bag",
+                "Description": "A grimy bag that smells a dumpster. Is it...glowing?",
+                "Weight": 4,
+                "BackgroundColor": "orange",
+                "Width": 3,
+                "Height": 3,
+                "StackMaxSize": 1,
+                "ItemSound": "gear_backpack",
+                "Prefab": {
+                    "path": "goblinbackpack.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "Rarity": "Superrare",
+                "ExaminedByDefault": true,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 25,
+                "ExamineExperience": 2,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": false,
+                "CanRequireOnRagfair": false,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "DropSoundType": "None",
+                "InsuranceDisabled": false,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5df8a4d786f77412672a1e3d",
+                        "_parent": "5df8a4d786f77412672a1e3b",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": [                                        
+                                        "5448bf274bdc2dfc2f8b456a",
+                                        "5c093db286f7740a1b2617e3",
+                                        "5e2af55f86f7746d4159f07c",
+                                        "5c0a840b86f7742ffa4f2482",
+                                        "5b7c710788a4506dec015957",
+                                        "5c127c4486f7745625356c13",
+                                        "5aafbcd986f7745e590fff23",
+                                        "59fb016586f7746d0d4b423a",
+                                        "59fb042886f7746c5005a7b2",
+                                        "59fb023c86f7746d0d4b423c",
+                                        "5b6d9ce188a4501afc1b2b25",
+                                        "GoblinsMedCase",
+                                        "GoblinsBoltHole"
+                                    ]
+                                }
+                            ],
+                            "cellsH": 6,
+                            "cellsV": 10,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "SearchSound": "looting_body_extended",
+                "BlocksArmorVest": false,
+                "speedPenaltyPercent": 0,
+                "GridLayoutName": ""
+            },
+            "_proto": "545cdae64bdc2d39198b4568"
+        },
+        "lightningstim": {
+            "_id": "lightningstim",
+            "_name": "lightningstim",
+            "_parent": "5448f3a64bdc2d60728b456a",
+            "_type": "Item",
+            "_props": {
+                "Name": "Abuelo's Lighting Juice",
+                "ShortName": "Lighting Juice",
+                "Description": "Abuelo used to make this powder and snort it whenever he got sleepy. The man never slept. This shouldn't be THAT strong, but close enough to do the job witout killing you...hopefully.",
+                "Weight": 0.05,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "ItemSound": "med_stimulator",
+                "Prefab": {
+                    "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_mule_loot.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_mule_container.bundle",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 8,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": 2,
+                "DropSoundType": "None",
+                "medUseTime": 2,
+                "medEffectType": "duringUse",
+                "MaxHpResource": 1,
+                "hpResourceRate": 0,
+                "StimulatorBuffs": "Geeked",
+                "effects_health": [],
+                "effects_damage": {
+                    "LightBleeding": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "Intoxication": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "RadExposure": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0,
+                        "healthPenaltyMin": 0,
+                        "healthPenaltyMax": 0
+                    },
+                    "HeavyBleeding": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0
+                    },
+                    "Contusion": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0,
+                        "cost": 0
+                    },
+                    "Pain": {
+                        "delay": 0,
+                        "duration": 300,
+                        "fadeOut": 0
+                    }
+                }
+            },
+            "_proto": "544fb3f34bdc2d03748b456a"
+        },
+        "ElDiablosBlood": {
+            "_id": "ElDiablosBlood",
+            "_name": "ElDiablosBlood",
+            "_parent": "5448f3a64bdc2d60728b456a",
+            "_type": "Item",
+            "_props": {
+                "Name": "El Diablo's Blood",
+                "ShortName": "El Diablo's Blood",
+                "Description": "I'd say it gave you wings, but Redbull already stole the slogan. A mixture of this and that. Won't kill you so long as you don't ask what's in it.",
+                "Weight": 0.05,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "ItemSound": "med_stimulator",
+                "Prefab": {
+                    "path": "assets/content/weapons/usable_items/item_syringe/item_morphine_loot.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "assets/content/weapons/usable_items/item_syringe/item_syringe_container.bundle",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "Rarity": "Superrare",
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 8,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": 2,
+                "DropSoundType": "None",
+                "medUseTime": 2,
+                "medEffectType": "duringUse",
+                "MaxHpResource": 3,
+                "hpResourceRate": 0,
+                "StimulatorBuffs": "TemporaryAutism",
+                "effects_health": [],
+                "effects_damage": []
+            },
+            "_proto": "544fb3f34bdc2d03748b456a"
+        },
+        "GoblinKingsTrophy001": {
+            "_id": "GoblinKingsTrophy001",
+            "_name": "GoblinKingsTrophy001",
+            "_parent": "5a341c4686f77469e155819e",
+            "_type": "Item",
+            "_props": {
+                "Name": "Rival's Guise",
+                "ShortName": "Rival's Guise",
+                "Description": "Guise of a rival knight reforged by the Goblin King to serve you better. As all trophies should.",
+                "Weight": 0.8,
+                "BackgroundColor": "violet",
+                "Width": 2,
+                "Height": 2,
+                "StackMaxSize": 1,
+                "ItemSound": "gear_generic",
+                "Prefab": {
+                    "path": "assets/content/items/equipment/facecover_boss_blackknight/item_equipment_facecover_boss_blackknight.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "Rarity": "Superrare",
+                "ExaminedByDefault": true,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 10,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "Grids": [],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "BlocksEarpiece": false,
+                "BlocksEyewear": false,
+                "BlocksHeadwear": true,
+                "BlocksFaceCover": false,
+                "Durability": 65,
+                "MaxDurability": 65,
+                "armorClass": "3",
+                "speedPenaltyPercent": 0,
+                "mousePenalty": 0,
+                "weaponErgonomicPenalty": 0,
+                "armorZone": ["Head"],
+                "headSegments": ["Top", "Nape", "Jaws"],
+                "Indestructibility": 0.9,
+                "FaceShieldComponent": false,
+                "FaceShieldMask": "NoMask",
+                "HasHinge": false,
+                "MaterialType": "BodyArmor",
+                "RicochetParams": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 80
+                },
+                "DeafStrength": "None",
+                "BluntThroughput": 0.5,
+                "ArmorMaterial": "UHMWPE",
+                "BlindnessProtection": 0
+            },
+            "_proto": "572b7d8524597762b472f9d1"
+        },
+        "GoblinKingsTrophy002": {
+            "_id": "GoblinKingsTrophy002",
+            "_name": "item_equipment_armor_goblin_a18",
+            "_parent": "5448e5284bdc2dcb718b4567",
+            "_type": "Item",
+            "_props": {
+                "Name": "GoblinKingsTrophy002",
+                "ShortName": "GoblinKingsTrophy002",
+                "Description": "GoblinKingsTrophy002",
+                "Weight": 8.2,
+                "BackgroundColor": "violet",
+                "Width": 4,
+                "Height": 3,
+                "StackMaxSize": 1,
+                "ItemSound": "gear_generic",
+                "Prefab": {
+                    "path": "assets/content/items/equipment/armor_ss_precision_boss_big_pipe/item_equipment_rig_boss_big_pipe.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "Rarity": "Superrare",
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 10,
+                "HideEntrails": true,
+                "RepairCost": 1,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": false,
+                "CanRequireOnRagfair": false,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "Grids": [
+                    {
+                        "_name": "1",
+                        "_id": "5d5d87f786f77427997cfaf1",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "2",
+                        "_id": "5d5d87f786f77427997cfaf2",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "3",
+                        "_id": "5d5d87f786f77427997cfaf3",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "4",
+                        "_id": "5d5d87f786f77427997cfaf4",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "5",
+                        "_id": "5d5d87f786f77427997cfaf5",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "6",
+                        "_id": "5d5d87f786f77427997cfaf6",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "7",
+                        "_id": "5d5d87f786f77427997cfaf7",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "8",
+                        "_id": "5d5d87f786f77427997cfaf8",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "9",
+                        "_id": "5d5d87f786f77427997cfaf9",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "10",
+                        "_id": "5d5d8b4e86f7742797262045",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "11",
+                        "_id": "5d5d8b5b86f774393602d6cf",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 1,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "12",
+                        "_id": "5d5d8b6086f77427997cfafb",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 1,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "13",
+                        "_id": "5d5d8b6686f7744a7a274304",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 1,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "14",
+                        "_id": "5d5d8b6c86f77439eb4c2c76",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 1,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "15",
+                        "_id": "5d5d8b7286f774279a21cbe6",
+                        "_parent": "5d5d87f786f77427997cfaef",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["54009119af1c881c07000029"],
+                                    "ExcludedFilter": ["5448bf274bdc2dfc2f8b456a"]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 1,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "SearchSound": "looting_body_extended",
+                "BlocksArmorVest": false,
+                "RigLayoutName": "A18",
+                "Durability": 100,
+                "MaxDurability": 100,
+                "armorZone": ["Chest", "Stomach"],
+                "headSegments": [],
+                "armorClass": 7,
+                "speedPenaltyPercent": 0,
+                "mousePenalty": 0,
+                "weaponErgonomicPenalty": 0,
+                "BluntThroughput": 0.3,
+                "ArmorMaterial": "UHMWPE"
+            },
+            "_proto": "544a5caa4bdc2d1a388b4568"
+        },
+        "DESOXYN": {
+            "_id": "DESOXYN",
+            "_name": "DESOXYN",
+            "_parent": "5448f3a14bdc2d27728b4569",
+            "_type": "Item",
+            "_props": {
+                "Name": "DESOXYN Methamphetamine Tablets",
+                "ShortName": "DESOXYN",
+                "Description": "DESOXYN",
+                "Weight": 0.07,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "ItemSound": "med_pills",
+                "Prefab": {
+                    "path": "desoxynloot.goblin",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "desoxyn.goblin",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 50,
+                "ExamineExperience": 5,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "DropSoundType": "None",
+                "InsuranceDisabled": false,
+                "QuestStashMaxCount": 0,
+                "IsSpecialSlotOnly": false,
+                "IsUnremovable": false,
+                "medUseTime": 3,
+                "medEffectType": "duringUse",
+                "MaxHpResource": 15,
+                "hpResourceRate": 0,
+                "StimulatorBuffs": "Speeding",
+                "effects_health": {
+                    "Energy": {
+                        "delay": 180,
+                        "value": -70
+                    },
+                    "Hydration": {
+                        "delay": 180,
+                        "value": -70
+                    }
+                },
+                "effects_damage": {
+                    "Pain": {
+                        "delay": 0,
+                        "duration": 280,
+                        "fadeOut": 10
+                    },
+                    "Contusion": {
+                        "delay": 0,
+                        "duration": 0,
+                        "fadeOut": 0
+                    }
+                }
+            },
+            "_proto": "544fb37f4bdc2dee738b4567"
+        },
+        "556Sludge": {
+            "_id": "556Sludge",
+            "_name": "556Sludge",
+            "_parent": "5485a8684bdc2da71d8b4567",
+            "_type": "Item",
+            "_props": {
+                "Name": "patron_556x45_MK_255_Mod_0",
+                "ShortName": "patron_556x45_MK_255_Mod_0",
+                "Description": "patron_556x45_MK_255_Mod_0",
+                "Weight": 0.015,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 60,
+                "ItemSound": "ammo_singleround",
+                "Prefab": {
+                    "path": "assets/content/items/ammo/patrons/patron_556x45_ssa_ap.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 0,
+                "ExamineExperience": 10,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "DropSoundType": "None",
+                "InsuranceDisabled": false,
+                "QuestStashMaxCount": 0,
+                "IsSpecialSlotOnly": false,
+                "IsUnremovable": false,
+                "StackMinRandom": 20,
+                "StackMaxRandom": 50,
+                "ammoType": "bullet",
+                "InitialSpeed": 950,
+                "BallisticCoeficient": 0.355,
+                "BulletMassGram": 6,
+                "BulletDiameterMilimeters": 5.7,
+                "Damage": 100,
+                "ammoAccr": 15,
+                "ammoRec": 11,
+                "ammoDist": 0,
+                "buckshotBullets": 0,
+                "PenetrationPower": 7,
+                "PenetrationPowerDiviation": 4,
+                "ammoHear": 0,
+                "ammoSfx": "standart",
+                "MisfireChance": 0.06,
+                "MinFragmentsCount": 2,
+                "MaxFragmentsCount": 6,
+                "ammoShiftChance": 0,
+                "casingName": "5.56x45 мм VG",
+                "casingEjectPower": 1,
+                "casingMass": 11.77,
+                "casingSounds": "rifle556",
+                "ProjectileCount": 1,
+                "PenetrationChance": 0.82,
+                "RicochetChance": 0.01,
+                "FragmentationChance": 0.9,
+                "Deterioration": 1,
+                "SpeedRetardation": 0.000023,
+                "Tracer": true,
+                "TracerColor": "tracerGreen",
+                "TracerDistance": 0,
+                "ArmorDamage": 17,
+                "Caliber": "Caliber556x45NATO",
+                "StaminaBurnPerDamage": 6,
+                "HeavyBleedingDelta": 0.4,
+                "LightBleedingDelta": 0.8,
+                "ShowBullet": false,
+                "HasGrenaderComponent": false,
+                "FuzeArmTimeSec": 0,
+                "ExplosionStrength": 0,
+                "MinExplosionDistance": 0,
+                "MaxExplosionDistance": 0,
+                "FragmentsCount": 0,
+                "FragmentType": "5996f6d686f77467977ba6cc",
+                "ShowHitEffectOnExplode": false,
+                "ExplosionType": "",
+                "AmmoLifeTimeSec": 5,
+                "Contusion": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "ArmorDistanceDistanceDamage": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Blindness": {
+                    "x": 10,
+                    "y": 20,
+                    "z": 20
+                },
+                "IsLightAndSoundShot": false,
+                "LightAndSoundShotAngle": 0,
+                "LightAndSoundShotSelfContusionTime": 0,
+                "LightAndSoundShotSelfContusionStrength": 0,
+                "MalfMisfireChance": 0.185,
+                "DurabilityBurnModificator": 1,
+                "HeatFactor": 1.75,
+                "MalfFeedChance": 0.1,
+                "RemoveShellAfterFire": false,
+                "StimulatorBuffs": "Buffs_KultistsToxin",
+                "MaxResource": 2
+            },
+            "_proto": "54527ac44bdc2d36668b4567"
+        },
+        "556SludgeBox": {
+            "_id": "556SludgeBox",
+            "_name": "556SludgeBox",
+            "_parent": "543be5cb4bdc2deb348b4568",
+            "_type": "Item",
+            "_props": {
+                "Name": "5.56x45mm Sludge ammo pack (120 pcs)",
+                "ShortName": "Sludge",
+                "Description": "A pack of 5.56x45mm Sludge ammo, 120 rounds.",
+                "Weight": 0.1,
+                "BackgroundColor": "orange",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "ItemSound": "ammo_pack_generic",
+                "Prefab": {
+                    "path": "assets/content/items/ammo/boxes/item_ammo_box_545x39_120_bp.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 0,
+                "ExamineExperience": 110,
+                "HideEntrails": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "BannedFromRagfair": false,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "DropSoundType": "None",
+                "InsuranceDisabled": false,
+                "QuestStashMaxCount": 0,
+                "IsSpecialSlotOnly": false,
+                "IsUnremovable": false,
+                "StackMinRandom": 120,
+                "StackMaxRandom": 120,
+                "ammoCaliber": "Caliber556x45NATO",
+                "StackSlots": [
+                    {
+                        "_name": "cartridges",
+                        "_id": "556SludgeBox_Ammo1",
+                        "_parent": "556SludgeBox",
+                        "_max_count": 120,
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": ["556Sludge"]
+                                }
+                            ]
+                        },
+                        "_proto": "5748538b2459770af276a261"
+                    }
+                ]
+            },
+            "_proto": "5447ac644bdc2d6c208b4567"
+        },
+        "CursedMask": {
+            "_id": "CursedMask",
+            "_name": "CursedMask",
+            "_parent": "5a341c4686f77469e155819e",
+            "_type": "Item",
+            "_props": {
+                "Name": "Cursed Mask",
+                "ShortName": "Cursed Mask",
+                "Description": "Wear the face of the Ghost on the bridge.",
+                "Weight": 0.1,
+                "BackgroundColor": "default",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "ItemSound": "gear_generic",
+                "Prefab": {
+                    "path": "assets/content/items/equipment/facecover_boss_zryachi_closed/facecover_boss_zryachi_closed.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": false,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 20,
+                "ExamineExperience": 100,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": false,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": true,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "DropSoundType": "None",
+                "InsuranceDisabled": false,
+                "QuestStashMaxCount": 0,
+                "IsSpecialSlotOnly": false,
+                "IsUnremovable": false,
+                "Grids": [],
+                "Slots": [],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "BlocksEarpiece": false,
+                "BlocksEyewear": false,
+                "BlocksHeadwear": false,
+                "BlocksFaceCover": false,
+                "Durability": 120,
+                "MaxDurability": 120,
+                "armorClass": "6",
+                "speedPenaltyPercent": 1,
+                "mousePenalty": 0,
+                "weaponErgonomicPenalty": 0,
+                "armorZone": ["Head"],
+                "Indestructibility": 0.9,
+                "headSegments": ["Top", "Nape", "Ears"],
+                "FaceShieldComponent": false,
+                "FaceShieldMask": "NoMask",
+                "HasHinge": false,
+                "MaterialType": "BodyArmor",
+                "RicochetParams": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 80
+                },
+                "DeafStrength": "None",
+                "BluntThroughput": 0.276,
+                "ArmorMaterial": "Combined",
+                "BlindnessProtection": 100,
+                "ArmorType": "None"
+            },
+            "_proto": "63626d904aa74b8fe30ab426"
+        },
+        "GoblinsKACSR25": {
+            "_id": "GoblinsKACSR25",
+            "_name": "GoblinsKACSR25",
+            "_parent": "5447b6194bdc2d67278b4567",
+            "_props": {
+              "AdjustCollimatorsToTrajectory": false,
+              "AimPlane": 0.22,
+              "AimSensitivity": 0.65,
+              "AllowFeed": true,
+              "AllowJam": true,
+              "AllowMisfire": true,
+              "AllowOverheat": true,
+              "AllowSlide": true,
+              "AnimationVariantsNumber": 0,
+              "BackgroundColor": "black",
+              "BaseMalfunctionChance": 0.208725,
+              "BoltAction": false,
+              "BurstShotsCount": 3,
+              "CameraRecoil": 0.096,
+              "CameraSnap": 3.5,
+              "CanPutIntoDuringTheRaid": true,
+              "CanQueueSecondShot": true,
+              "CanRequireOnRagfair": false,
+              "CanSellOnRagfair": false,
+              "CantRemoveFromSlotsDuringRaid": [],
+              "CenterOfImpact": 0,
+              "Chambers": [
+                {
+                  "_id": "5df8ce05b11454561e392444",
+                  "_mergeSlotWithChildren": false,
+                  "_name": "patron_in_weapon",
+                  "_parent": "5df8ce05b11454561e39243b",
+                  "_props": {
+                    "filters": [
+                      {
+                        "Filter": [
+                          "5a6086ea4f39f99cd479502f",
+                          "5a608bf24f39f98ffc77720e",
+                          "58dd3ad986f77403051cba8f",
+                          "5e023e53d4353e3302577c4c",
+                          "5efb0c1bd79ff02a1f5e68d9",
+                          "5e023e6e34d52a55c3304f71",
+                          "5e023e88277cce2b522ff2b1"
+                        ]
+                      }
+                    ]
+                  },
+                  "_proto": "55d4af244bdc2d962f8b4571",
+                  "_required": false
+                }
+              ],
+              "CompactHandling": true,
+              "ConflictingItems": [],
+              "Convergence": 1.5,
+              "CoolFactorGun": 5.592,
+              "CoolFactorGunMods": 2,
+              "Description": "Simple trigger modification and stripping down of unneeded metal, Goblin has managed to drop down the weight to add burst and fully automatic fire rates. The receiver otherwise doesnt seem to have much else done to it.",
+              "DeviationCurve": 1.1,
+              "DeviationMax": 30,
+              "DiscardLimit": -1,
+              "DiscardingBlock": false,
+              "DoubleActionAccuracyPenalty": 1.5,
+              "DropSoundType": "Rifle",
+              "Durability": 100,
+              "DurabilityBurnRatio": 1.15,
+              "Ergonomics": 47,
+              "ExamineExperience": 8,
+              "ExamineTime": 1,
+              "ExaminedByDefault": true,
+              "ExtraSizeDown": 0,
+              "ExtraSizeForceAdd": false,
+              "ExtraSizeLeft": 0,
+              "ExtraSizeRight": 0,
+              "ExtraSizeUp": 0,
+              "Foldable": false,
+              "FoldedSlot": "",
+              "Grids": [],
+              "HeatFactorByShot": 2.5,
+              "HeatFactorGun": 1,
+              "Height": 1,
+              "HideEntrails": false,
+              "HipAccuracyRestorationDelay": 0.2,
+              "HipAccuracyRestorationSpeed": 7,
+              "HipInnaccuracyGain": 0.16,
+              "InsuranceDisabled": false,
+              "IronSightRange": 100,
+              "IsAlwaysAvailableForInsurance": false,
+              "IsFlareGun": false,
+              "IsGrenadeLauncher": false,
+              "IsLockedafterEquip": false,
+              "IsOneoff": false,
+              "IsSpecialSlotOnly": false,
+              "IsUnbuyable": false,
+              "IsUndiscardable": false,
+              "IsUngivable": false,
+              "IsUnremovable": false,
+              "IsUnsaleable": false,
+              "ItemSound": "weap_dmr",
+              "LootExperience": 5,
+              "ManualBoltCatch": false,
+              "MaxDurability": 100,
+              "MaxRepairDegradation": 0.03,
+              "MaxRepairKitDegradation": 0.025,
+              "MergesWithChildren": true,
+              "MinRepairDegradation": 0,
+              "MinRepairKitDegradation": 0,
+              "MustBoltBeOpennedForExternalReload": false,
+              "MustBoltBeOpennedForInternalReload": false,
+              "Name": "KAC SR-25 Goblin-Mod",
+              "NoFiremodeOnBoltcatch": false,
+              "NotShownInSlot": false,
+              "OperatingResource": 2300,
+              "Prefab": {
+                "path": "sr25goblin.goblin",
+                "rcid": ""
+              },
+              "QuestItem": false,
+              "QuestStashMaxCount": 0,
+              "RagFairCommissionModifier": 1,
+              "RecoilAngle": 90,
+              "RecoilCenter": {
+                "x": 0,
+                "y": -0.3,
+                "z": 0
+              },
+              "RecoilForceBack": 550,
+              "RecoilForceUp": 217,
+              "RecoilPosZMult": 1,
+              "RecolDispersion": 17,
+              "ReloadMode": "ExternalMagazine",
+              "RepairComplexity": 0,
+              "RepairCost": 246,
+              "RepairSpeed": 15,
+              "Retractable": false,
+              "RotationCenter": {
+                "x": 0,
+                "y": -0.1,
+                "z": 0
+              },
+              "RotationCenterNoStock": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "ShortName": "SR-25GM",
+              "SightingRange": 100,
+              "SingleFireRate": 450,
+              "SizeReduceRight": 0,
+              "Slots": [
+                {
+                  "_id": "5df8ce05b11454561e39243d",
+                  "_mergeSlotWithChildren": false,
+                  "_name": "mod_pistol_grip",
+                  "_parent": "5df8ce05b11454561e39243b",
+                  "_props": {
+                    "filters": [
+                      {
+                        "Filter": [
+                          "55d4b9964bdc2d1d4e8b456e",
+                          "571659bb2459771fb2755a12",
+                          "602e71bd53a60014f9705bfa",
+                          "6113c3586c780c1e710c90bc",
+                          "6113cc78d3a39d50044c065a",
+                          "6113cce3d92c473c770200c7",
+                          "5cc9bcaed7f00c011c04e179",
+                          "5bb20e18d4351e00320205d5",
+                          "5bb20e0ed4351e3bac1212dc",
+                          "6193dcd0f8ee7e52e4210a28",
+                          "5d025cc1d7ad1a53845279ef",
+                          "5c6d7b3d2e221600114c9b7d",
+                          "57c55efc2459772d2c6271e7",
+                          "57af48872459771f0b2ebf11",
+                          "57c55f092459772d291a8463",
+                          "57c55f112459772d28133310",
+                          "57c55f172459772d27602381",
+                          "5a339805c4a2826c6e06d73d",
+                          "55802f5d4bdc2dac148b458f",
+                          "5d15cf3bd7ad1a67e71518b2",
+                          "59db3a1d86f77429e05b4e92",
+                          "5fbcbd6c187fea44d52eda14",
+                          "59db3acc86f7742a2c4ab912",
+                          "59db3b0886f77429d72fb895",
+                          "615d8faecabb9b7ad90f4d5d",
+                          "5b07db875acfc40dc528a5f6"
+                        ],
+                        "Shift": 0
+                      }
+                    ]
+                  },
+                  "_proto": "55d30c4c4bdc2db4468b457e",
+                  "_required": true
+                },
+                {
+                  "_id": "5df8ce05b11454561e39243e",
+                  "_mergeSlotWithChildren": false,
+                  "_name": "mod_magazine",
+                  "_parent": "5df8ce05b11454561e39243b",
+                  "_props": {
+                    "filters": [
+                      {
+                        "AnimationIndex": -1,
+                        "Filter": [
+                          "5df8f535bb49d91fb446d6b0",
+                          "5df8f541c41b2312ea3335e3",
+                          "5a3501acc4a282000d72293a"
+                        ]
+                      }
+                    ]
+                  },
+                  "_proto": "55d30c394bdc2dae468b4577",
+                  "_required": false
+                },
+                {
+                  "_id": "5df8ce05b11454561e39243f",
+                  "_mergeSlotWithChildren": false,
+                  "_name": "mod_stock",
+                  "_parent": "5df8ce05b11454561e39243b",
+                  "_props": {
+                    "filters": [
+                      {
+                        "Filter": [
+                          "5649be884bdc2d79388b4577",
+                          "5d120a10d7ad1a4e1026ba85",
+                          "5b0800175acfc400153aebd4",
+                          "602e3f1254072b51b239f713",
+                          "5c793fb92e221644f31bfb64",
+                          "5c793fc42e221600114ca25d",
+                          "638de3603a1a4031d8260b8c"
+                        ],
+                        "Shift": 0
+                      }
+                    ]
+                  },
+                  "_proto": "55d30c4c4bdc2db4468b457e",
+                  "_required": true
+                },
+                {
+                  "_id": "5df926b94a9f347bc92edcac",
+                  "_mergeSlotWithChildren": false,
+                  "_name": "mod_reciever",
+                  "_parent": "5df8ce05b11454561e39243b",
+                  "_props": {
+                    "filters": [
+                      {
+                        "Filter": [
+                          "5df8e4080b92095fd441e594"
+                        ],
+                        "Shift": 0
+                      }
+                    ]
+                  },
+                  "_proto": "55d30c4c4bdc2db4468b457e",
+                  "_required": true
+                },
+                {
+                  "_id": "5df926e28b6c4240ba265260",
+                  "_mergeSlotWithChildren": false,
+                  "_name": "mod_charge",
+                  "_parent": "5df8ce05b11454561e39243b",
+                  "_props": {
+                    "filters": [
+                      {
+                        "Filter": [
+                          "5df8e085bb49d91fb446d6a8",
+                          "5df8e053bb49d91fb446d6a6"
+                        ],
+                        "Shift": 0
+                      }
+                    ]
+                  },
+                  "_proto": "55d30c4c4bdc2db4468b457e",
+                  "_required": true
+                }
+              ],
+              "StackMaxSize": 1,
+              "StackObjectsCount": 1,
+              "TacticalReloadFixation": 0.95,
+              "TacticalReloadStiffnes": {
+                "x": 0.95,
+                "y": 0.33,
+                "z": 0.95
+              },
+              "Unlootable": false,
+              "UnlootableFromSide": [],
+              "UnlootableFromSlot": "FirstPrimaryWeapon",
+              "UsePrefab": {
+                "path": "",
+                "rcid": ""
+              },
+              "Velocity": 0,
+              "Weight": 0.51,
+              "Width": 1,
+              "ammoCaliber": "Caliber762x51",
+              "bEffDist": 900,
+              "bFirerate": 700,
+              "bHearDist": 80,
+              "chamberAmmoCount": 1,
+              "defAmmo": "5e023e53d4353e3302577c4c",
+              "defMagType": "5a3501acc4a282000d72293a",
+              "durabSpawnMax": 75,
+              "durabSpawnMin": 25,
+              "isBoltCatch": true,
+              "isChamberLoad": true,
+              "isFastReload": true,
+              "shotgunDispersion": 0,
+              "weapClass": "marksmanRifle",
+              "weapFireType": [
+                "single", "burst", "fullauto"
+              ],
+              "weapUseType": "primary"
+            },
+            "_proto": "5447a9cd4bdc2dbd208b4567",
+            "_type": "Item"
+        },
+        "c00lsh4d35": {
+            "_id": "c00lsh4d35",
+            "_name": "c00lsh4d35",
+            "_parent": "5448e5724bdc2ddf718b4568",
+            "_props": {
+              "AnimationVariantsNumber": 0,
+              "ArmorMaterial": "Glass",
+              "ArmorType": "None",
+              "BackgroundColor": "default",
+              "BlindnessProtection": 1.5,
+              "BlocksEarpiece": false,
+              "BlocksEyewear": false,
+              "BlocksFaceCover": false,
+              "BlocksHeadwear": false,
+              "BluntThroughput": 0.15,
+              "CanPutIntoDuringTheRaid": true,
+              "CanRequireOnRagfair": false,
+              "CanSellOnRagfair": true,
+              "CantRemoveFromSlotsDuringRaid": [],
+              "ConflictingItems": [],
+              "DeafStrength": "None",
+              "Description": "Only the best protection is offered in the best style with Goblin Medical Corps 'Morpheus Glasses' Combat tested.",
+              "DiscardLimit": -1,
+              "DiscardingBlock": false,
+              "DropSoundType": "None",
+              "Durability": 100,
+              "ExamineExperience": 10,
+              "ExamineTime": 1,
+              "ExaminedByDefault": true,
+              "ExtraSizeDown": 0,
+              "ExtraSizeForceAdd": false,
+              "ExtraSizeLeft": 0,
+              "ExtraSizeRight": 0,
+              "ExtraSizeUp": 0,
+              "FaceShieldComponent": false,
+              "FaceShieldMask": "NoMask",
+              "Grids": [],
+              "HasHinge": false,
+              "Height": 1,
+              "HideEntrails": false,
+              "Indestructibility": 0.9,
+              "InsuranceDisabled": false,
+              "IsAlwaysAvailableForInsurance": false,
+              "IsLockedafterEquip": false,
+              "IsSpecialSlotOnly": false,
+              "IsUnbuyable": false,
+              "IsUndiscardable": false,
+              "IsUngivable": false,
+              "IsUnremovable": false,
+              "IsUnsaleable": false,
+              "ItemSound": "gear_goggles",
+              "LootExperience": 10,
+              "MaterialType": "GlassVisor",
+              "MaxDurability": 100,
+              "MergesWithChildren": false,
+              "Name": "item_equipment_glasses_npp",
+              "NotShownInSlot": false,
+              "Prefab": {
+                "path": "morpheusglasses.bundle",
+                "rcid": ""
+              },
+              "QuestItem": false,
+              "QuestStashMaxCount": 0,
+              "RagFairCommissionModifier": 1,
+              "RepairCost": 531,
+              "RepairSpeed": 0,
+              "RicochetParams": {
+                "x": 0.7,
+                "y": 0.3,
+                "z": 55
+              },
+              "ShortName": "Matrix",
+              "Slots": [],
+              "StackMaxSize": 1,
+              "StackObjectsCount": 1,
+              "Unlootable": false,
+              "UnlootableFromSide": [],
+              "UnlootableFromSlot": "FirstPrimaryWeapon",
+              "UsePrefab": {
+                "path": "",
+                "rcid": ""
+              },
+              "Weight": 0.03,
+              "Width": 2,
+              "armorClass": "6",
+              "armorZone": [
+                "Head"
+              ],
+              "headSegments": [
+                "Eyes"
+              ],
+              "mousePenalty": 0,
+              "speedPenaltyPercent": 0,
+              "weaponErgonomicPenalty": 0
+            },
+            "_proto": "557ff21e4bdc2d89578b4586",
+            "_type": "Item"
+        },
+        "CastleTux": {
+            "_id": "CastleTux",
+            "_name": "CastleTux",
+            "_parent": "5448e54d4bdc2dcc718b4568",
+            "_props": {
+              "AnimationVariantsNumber": 0,
+              "ArmorMaterial": "ArmoredSteel",
+              "ArmorType": "Heavy",
+              "BackgroundColor": "violet",
+              "BlindnessProtection": 0,
+              "BlocksEarpiece": false,
+              "BlocksEyewear": false,
+              "BlocksFaceCover": false,
+              "BlocksHeadwear": false,
+              "BluntThroughput": 0.128,
+              "CanPutIntoDuringTheRaid": true,
+              "CanRequireOnRagfair": false,
+              "CanSellOnRagfair": false,
+              "CantRemoveFromSlotsDuringRaid": [],
+              "ConflictingItems": [],
+              "DeafStrength": "None",
+              "Description": "Dress your best on your moonlight walks and strike envy into the hearts of those who lay eyes upon your drip. It also protects against bullets.",
+              "DiscardLimit": -1,
+              "DiscardingBlock": false,
+              "DropSoundType": "None",
+              "Durability": 100,
+              "ExamineExperience": 2,
+              "ExamineTime": 1,
+              "ExaminedByDefault": true,
+              "ExtraSizeDown": 0,
+              "ExtraSizeForceAdd": false,
+              "ExtraSizeLeft": 0,
+              "ExtraSizeRight": 0,
+              "ExtraSizeUp": 0,
+              "FaceShieldComponent": false,
+              "FaceShieldMask": "NoMask",
+              "Grids": [],
+              "HasHinge": false,
+              "Height": 3,
+              "HideEntrails": false,
+              "Indestructibility": 0.9,
+              "InsuranceDisabled": false,
+              "IsAlwaysAvailableForInsurance": false,
+              "IsLockedafterEquip": false,
+              "IsSpecialSlotOnly": false,
+              "IsUnbuyable": false,
+              "IsUndiscardable": false,
+              "IsUngivable": false,
+              "IsUnremovable": false,
+              "IsUnsaleable": false,
+              "ItemSound": "gear_armor",
+              "LootExperience": 45,
+              "MaterialType": "BodyArmor",
+              "MaxDurability": 100,
+              "MergesWithChildren": false,
+              "Name": "Castiglione Tuxedo",
+              "NotShownInSlot": false,
+              "Prefab": {
+                "path": "penguinxgear/punisher_slick.bundle",
+                "rcid": ""
+              },
+              "QuestItem": false,
+              "QuestStashMaxCount": 0,
+              "RagFairCommissionModifier": 1,
+              "RepairCost": 2063,
+              "RepairSpeed": 8,
+              "RicochetParams": {
+                "x": 0,
+                "y": 0,
+                "z": 80
+              },
+              "ShortName": "Tux",
+              "Slots": [],
+              "StackMaxSize": 1,
+              "StackObjectsCount": 1,
+              "Unlootable": false,
+              "UnlootableFromSide": [],
+              "UnlootableFromSlot": "FirstPrimaryWeapon",
+              "UsePrefab": {
+                "path": "",
+                "rcid": ""
+              },
+              "Weight": 9.7,
+              "Width": 3,
+              "armorClass": "6",
+              "armorZone": [
+                "Chest",
+                "Thorax",
+                "Stomach"
+              ],
+              "headSegments": [],
+              "mousePenalty": -1,
+              "speedPenaltyPercent": -5,
+              "weaponErgonomicPenalty": 0
+            },
+            "_proto": "545cdb794bdc2d3a198b456a",
+            "_type": "Item"
+        },
+        "NCRHelmet":{
+            "_id": "NCRHelmet",
+            "_name": "NCRHelmet",
+        "_parent": "5a341c4086f77401f2541505",
+            "_type": "Item",
+            "_props": {
+                "Name": "NCR Helmet",
+                "ShortName": "NCR",
+                "Description": "In honor of our great courier we present this one of a kind replica. Do not lose it.",
+                "Weight": 2.1,
+                "BackgroundColor": "violet",
+                "Width": 2,
+                "Height": 2,
+                "StackMaxSize": 1,
+                "ItemSound": "gear_helmet",
+                "Prefab": {
+                    "path": "nvrangerhelmet.goblin",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                    
+                },
+                 "StackObjectsCount": 1,
+          "NotShownInSlot": false,
+          "ExaminedByDefault": true,
+          "ExamineTime": 1,
+          "IsUndiscardable": false,
+          "IsUnsaleable": false,
+          "IsUnbuyable": false,
+          "IsUngivable": false,
+          "IsLockedafterEquip": false,
+          "QuestItem": false,
+          "LootExperience": 20,
+          "ExamineExperience": 4,
+          "HideEntrails": false,
+          "RepairCost": 130,
+          "RepairSpeed": 10,
+          "ExtraSizeLeft": 0,
+          "ExtraSizeRight": 0,
+          "ExtraSizeUp": 0,
+          "ExtraSizeDown": 0,
+          "ExtraSizeForceAdd": false,
+          "MergesWithChildren": false,
+          "CanSellOnRagfair": true,
+          "CanRequireOnRagfair": true,
+          "ConflictingItems": ["60a7ad3a0c5cb24b0134664a",
+          "60a7ad2a2198820d95707a2e"],
+          "Unlootable": false,
+          "UnlootableFromSlot": "FirstPrimaryWeapon",
+          "UnlootableFromSide": [],
+          "AnimationVariantsNumber": 0,
+          "DiscardingBlock": false,
+          "RagFairCommissionModifier": 1,
+          "IsAlwaysAvailableForInsurance": false,
+          "DiscardLimit": -1,
+          "DropSoundType": "None",
+          "Grids": [],
+          "Slots": [],
+          "CanPutIntoDuringTheRaid": true,
+          "CantRemoveFromSlotsDuringRaid": [
+            "Head"
+          ],
+          "BlocksEarpiece": true,
+          "BlocksEyewear": true,
+          "BlocksHeadwear": false,
+          "BlocksFaceCover": true,
+          "Durability": 100,
+          "MaxDurability": 100,
+          "armorClass": "4",
+          "speedPenaltyPercent": -1.25,
+          "mousePenalty": 0,
+          "weaponErgonomicPenalty": -1.25,
+          "armorZone": [
+            "Head"
+          ],
+          "Indestructibility": 0.9,
+          "headSegments": [
+            "Top",
+            "Nape",
+            "Ears",
+            "Eyes"
+          ],
+          "FaceShieldComponent": false,
+          "FaceShieldMask": "NoMask",
+          "HasHinge": false,
+          "MaterialType": "Helmet",
+          "RicochetParams": {
+            "x": 0.9,
+            "y": 0.4,
+            "z": 75
+          },
+          "DeafStrength": "High",
+          "BluntThroughput": 1,
+          "ArmorMaterial": "ArmoredSteel",
+          "BlindnessProtection": 100,
+          "ArmorType": "Heavy"
+        },
+        "_proto": "5645bc214bdc2d363b8b4571"
+        },
+        "GCBeta1": {
+            "_id": "GCBeta1",
+            "_name": "GCBeta1",
+            "_parent": "5a341c4686f77469e155819e",
+            "_type": "Item",
+            "_props": {
+              "Name": "GC Beta 1 Gas Mask",
+              "ShortName": "GCB1",
+              "Description": "For use in noxious environments. To activate, place filter on a flat sterile surface. Remove seal from the activating liquid solution(If no solution is available, urine may be used as substitute.) Let stand for 10 minutes then attach filter to mask. Filter will prevent the inhalation of noxious chemicals for thirteen hours of continuous use. Do not use expired filtration units.",
+              "Weight": 0.9,
+              "BackgroundColor": "default",
+              "Width": 2,
+              "Height": 2,
+              "StackMaxSize": 1,
+              "ItemSound": "gear_helmet",
+              "Prefab": {
+                "path": "gasmaskgk.bundle",
+                "rcid": ""
+              },
+              "UsePrefab": {
+                "path": "",
+                "rcid": ""
+              },
+              "StackObjectsCount": 1,
+              "NotShownInSlot": false,
+              "ExaminedByDefault": true,
+              "ExamineTime": 1,
+              "IsUndiscardable": false,
+              "IsUnsaleable": false,
+              "IsUnbuyable": false,
+              "IsUngivable": false,
+              "IsLockedafterEquip": false,
+              "QuestItem": false,
+              "LootExperience": 20,
+              "ExamineExperience": 10,
+              "HideEntrails": false,
+              "RepairCost": 0,
+              "RepairSpeed": 0,
+              "ExtraSizeLeft": 0,
+              "ExtraSizeRight": 0,
+              "ExtraSizeUp": 0,
+              "ExtraSizeDown": 0,
+              "ExtraSizeForceAdd": false,
+              "MergesWithChildren": false,
+              "CanSellOnRagfair": true,
+              "CanRequireOnRagfair": false,
+              "ConflictingItems": [
+                "59e770f986f7742cbe3164ef",
+                "572b7d8524597762b472f9d1",
+                "5aa2b87de5b5b00016327c25",
+                "5aa2a7e8e5b5b00016327c16",
+                "5aa2b89be5b5b0001569311f",
+                "5aa2b8d7e5b5b00014028f4a",
+                "5aa2ba46e5b5b000137b758d",
+                "5aa2b9ede5b5b000137b758b",
+                "5aa2ba19e5b5b00014028f4e",
+                "5ab8f20c86f7745cdb629fb2",
+                "5645bc214bdc2d363b8b4571",
+                "5c066ef40db834001966a595",
+                "5aa7d193e5b5b000171d063f",
+                "5b4329f05acfc47a86086aa1",
+                "5b43271c5acfc432ff4dce65",
+                "5b40e5e25acfc4001a599bea",
+                "5f60e6403b85f6263c14558c",
+                "5f60e7788adaa7100c3adb49",
+                "5f60e784f2bcbb675b00dac7",
+                "5d96141523f0ea1b7f2aacab",
+                "5bd073c986f7747f627e796c",
+                "603618feffd42c541047f771",
+                "603619720ca681766b6a0fc4",
+                "6040de02647ad86262233012",
+                "60361a7497633951dc245eb4",
+                "60361b0b5a45383c122086a1",
+                "60361b5a9a15b10d96792291",
+                "5b4327aa5acfc400175496e0",
+                "5b40e61f5acfc4001a599bec",
+                "5c0d2727d174af02a012cf58",
+                "5c08f87c0db8340019124324",
+                "5e4bfc1586f774264f7582d3",
+                "59ef13ca86f77445fd0e2483",
+                "572b7fa124597762b472f9d2",
+                "5aa7e373e5b5b000137b76f0",
+                "5a16ba61fcdbcb098008728a",
+                "5a16b7e1fcdbcb00165aa6c9",
+                "5f60c076f2bcbb675b00dac2",
+                "5d6d3829a4b9361bc8618943",
+                "5c0919b50db834001b7ce3b9",
+                "5c0e842486f77443a74d2976",
+                "5f60c85b58eff926626a60f7",
+                "5e00cdd986f7747473332240",
+                "5b432b965acfc47a8774094e"
+              ],
+              "Unlootable": false,
+              "UnlootableFromSlot": "FirstPrimaryWeapon",
+              "UnlootableFromSide": [],
+              "AnimationVariantsNumber": 0,
+              "DiscardingBlock": false,
+              "RagFairCommissionModifier": 1,
+              "IsAlwaysAvailableForInsurance": false,
+              "DiscardLimit": -1,
+              "DropSoundType": "None",
+              "InsuranceDisabled": false,
+              "QuestStashMaxCount": 0,
+              "IsSpecialSlotOnly": false,
+              "IsUnremovable": false,
+              "Grids": [],
+              "Slots": [],
+              "CanPutIntoDuringTheRaid": true,
+              "CantRemoveFromSlotsDuringRaid": [],
+              "BlocksEarpiece": false,
+              "BlocksEyewear": true,
+              "BlocksHeadwear": false,
+              "BlocksFaceCover": true,
+              "Durability": 100,
+              "MaxDurability": 100,
+              "armorClass": "1",
+              "speedPenaltyPercent": 0,
+              "mousePenalty": 0,
+              "weaponErgonomicPenalty": 0,
+              "armorZone": [],
+              "Indestructibility": 0.9,
+              "headSegments": [],
+              "FaceShieldComponent": false,
+              "FaceShieldMask": "NoMask",
+              "HasHinge": false,
+              "MaterialType": "BodyArmor",
+              "RicochetParams": {
+                "x": 0,
+                "y": 0,
+                "z": 80
+              },
+              "DeafStrength": "None",
+              "BluntThroughput": 0.250,
+              "ArmorMaterial": "UHMWPE",
+              "BlindnessProtection": 0.5,
+              "ArmorType": "None"
+            },
+            "_proto": "572b7fa124597762b472f9d2"
+
+        },
+        "LegoHead": {
+            "_id": "LegoHead",
+            "_name": "LegoHead",
+            "_parent": "5a341c4086f77401f2541505",
+            "_type": "Item",
+            "_props": {
+              "Name": "Novelty Lego Helmet",
+              "ShortName": "Novelty Lego Helmet",
+              "Description": "A costume helmet manufactured by Lego America.",
+              "Weight": 1.6,
+              "BackgroundColor": "default",
+              "Width": 2,
+              "Height": 2,
+              "StackMaxSize": 1,
+              "ItemSound": "gear_helmet",
+              "Prefab": {
+                "path": "legohead.bundle",
+                "rcid": ""
+              },
+              "UsePrefab": {
+                "path": "",
+                "rcid": ""
+              },
+              "StackObjectsCount": 1,
+              "NotShownInSlot": false,
+              "ExaminedByDefault": true,
+              "ExamineTime": 1,
+              "IsUndiscardable": false,
+              "IsUnsaleable": false,
+              "IsUnbuyable": false,
+              "IsUngivable": false,
+              "IsLockedafterEquip": false,
+              "QuestItem": false,
+              "LootExperience": 20,
+              "ExamineExperience": 10,
+              "HideEntrails": false,
+              "RepairCost": 553,
+              "RepairSpeed": 0,
+              "ExtraSizeLeft": 0,
+              "ExtraSizeRight": 0,
+              "ExtraSizeUp": 0,
+              "ExtraSizeDown": 0,
+              "ExtraSizeForceAdd": false,
+              "MergesWithChildren": false,
+              "CanSellOnRagfair": true,
+              "CanRequireOnRagfair": false,
+              "ConflictingItems": [],
+              "Unlootable": false,
+              "UnlootableFromSlot": "FirstPrimaryWeapon",
+              "UnlootableFromSide": [],
+              "AnimationVariantsNumber": 0,
+              "DiscardingBlock": false,
+              "RagFairCommissionModifier": 1,
+              "IsAlwaysAvailableForInsurance": true,
+              "DiscardLimit": 4,
+              "DropSoundType": "None",
+              "InsuranceDisabled": false,
+              "QuestStashMaxCount": 0,
+              "IsSpecialSlotOnly": false,
+              "IsUnremovable": false,
+              "Grids": [],
+              "Slots": [],
+              "CanPutIntoDuringTheRaid": true,
+              "CantRemoveFromSlotsDuringRaid": [],
+              "BlocksEarpiece": true,
+              "BlocksEyewear": true,
+              "BlocksHeadwear": false,
+              "BlocksFaceCover": true,
+              "Durability": 25,
+              "MaxDurability": 25,
+              "armorClass": "1",
+              "speedPenaltyPercent": -1,
+              "mousePenalty": -2,
+              "weaponErgonomicPenalty": -1,
+              "armorZone": [
+                "Head"
+              ],
+              "Indestructibility": 0.9,
+              "headSegments": [
+                "Top",
+                "Nape",
+                "Ears",
+                "Eyes"
+             
+              ],
+              "FaceShieldComponent": false,
+              "FaceShieldMask": "NoMask",
+              "HasHinge": false,
+              "MaterialType": "Helmet",
+              "RicochetParams": {
+                "x": 0,
+                "y": 0,
+                "z": 75
+              },
+              "DeafStrength": "Low",
+              "BluntThroughput": 0,
+              "ArmorMaterial": "Aramid",
+              "BlindnessProtection": 0,
+              "ArmorType": "Light"
+            },
+            "_proto": "572b7d8524597762b472f9d1"
+        },
+        "GCCerberus": {
+            "_id": "GCCerberus",
+            "_name": "GCCerberus",
+            "_parent": "5448bf274bdc2dfc2f8b456a",
+            "_type": "Item",
+            "_props": {
+              "Name": "Goblin Corps Cerberus Military Safe",
+              "ShortName": "GC-C",
+              "Description": "Whatever it is, we at Goblin Corps wish to keep your valuables secure. Why let the rats destroy and pilfer what you hold dear? Let us at Goblin Corp keep you valuables safe. !DISCLAIMER! Goblin Corps is not repsonsible for any damage caused by the Cerberus Safe.",
+              "Weight": 2,
+              "BackgroundColor": "violet",
+              "Width": 3,
+              "Height": 3,
+              "StackMaxSize": 1,
+              "ItemSound": "container_plastic",
+              "Prefab": {
+                "path": "goblincase.bundle",
+                "rcid": ""
+              },
+              "UsePrefab": {
+                "path": "",
+                "rcid": ""
+              },
+              "StackObjectsCount": 1,
+              "NotShownInSlot": false,
+              "ExaminedByDefault": false,
+              "ExamineTime": 1,
+              "IsUndiscardable": false,
+              "IsUnsaleable": false,
+              "IsUnbuyable": false,
+              "IsUngivable": false,
+              "IsLockedafterEquip": false,
+              "QuestItem": false,
+              "LootExperience": 0,
+              "ExamineExperience": 100,
+              "HideEntrails": true,
+              "RepairCost": 0,
+              "RepairSpeed": 0,
+              "ExtraSizeLeft": 0,
+              "ExtraSizeRight": 0,
+              "ExtraSizeUp": 0,
+              "ExtraSizeDown": 0,
+              "ExtraSizeForceAdd": false,
+              "MergesWithChildren": false,
+              "CanSellOnRagfair": false,
+              "CanRequireOnRagfair": false,
+              "ConflictingItems": [],
+              "Unlootable": false,
+              "UnlootableFromSlot": "FirstPrimaryWeapon",
+              "UnlootableFromSide": [],
+              "AnimationVariantsNumber": 0,
+              "DiscardingBlock": true,
+              "RagFairCommissionModifier": 1,
+              "IsAlwaysAvailableForInsurance": false,
+              "DiscardLimit": -1,
+              "DropSoundType": "None",
+              "InsuranceDisabled": false,
+              "QuestStashMaxCount": 0,
+              "IsSpecialSlotOnly": false,
+              "IsUnremovable": false,
+              "Grids": [
+                {
+                  "_name": "main",
+                  "_id": "5c093ca986f7740a1867ab14",
+                  "_parent": "GC_Cerberus",
+                  "_props": {
+                    "filters": [
+                      {
+                        "Filter": [
+                          "5448eb774bdc2d0a728b4567",
+                          "5448fe124bdc2da5018b4567",
+                          "60b0f6c058e0b0481a09ad11",
+                          "619cbf9e0a7c3a1a2731940a",
+                          "619cbf7d23893217ec30b689",
+                          "59fafd4b86f7745ca07e1232",
+                          "62a09d3bcf4a99369e262447",
+                          "5d235bb686f77443f4331278",
+                          "5c093e3486f77430cb02e593",
+                          "590c60fc86f77412b13fddcf",
+                          "5783c43d2459774bbe137486",
+                          "543be6674bdc2df1348b4569",
+                          "5448ecbe4bdc2d60728b4568",
+                          "543be5e94bdc2df1348b4568",
+                          "5447e1d04bdc2dff2f8b4567",
+                          "567849dd4bdc2d150f8b456e",
+                          "543be5664bdc2dd4348b4569",
+                          "5447e0e74bdc2d3c308b4567",
+                          "5661632d4bdc2d903d8b456b",
+                          "5645bc214bdc2d363b8b4571",
+                          "5aa7cfc0e5b5b00015693143",
+                          "5aa7e276e5b5b000171d0647",
+                          "5c066ef40db834001966a595",
+                          "5df8a58286f77412631087ed",
+                          "59e7711e86f7746cae05fbe1",
+                          "5d5e7d28a4b936645d161203",
+                          "5d5e9c74a4b9364855191c40",
+                          "5a154d5cfcdbcb001a3b00da",
+                          "5ac8d6885acfc400180ae7b0",
+                          "5a7c4850e899ef00150be885",
+                          "5aa7d193e5b5b000171d063f",
+                          "5aa7d03ae5b5b00016327db5",
+                          "5a16bb52fcdbcb001a3b00dc",
+                          "5aa7e454e5b5b0214e506fa2",
+                          "5aa7e4a4e5b5b000137b76f2",
+                          "5b4329f05acfc47a86086aa1",
+                          "5b40e3f35acfc40016388218",
+                          "5b40e4035acfc47a87740943",
+                          "5b432d215acfc4771e1c6624",
+                          "5b40e1525acfc4771e1c6611",
+                          "5b40e2bc5acfc40016388216",
+                          "5c17a7ed2e2216152142459c",
+                          "5ea17ca01412a1425304d1c0",
+                          "5f60b34a41e30a4ab12a6947",
+                          "5ea05cf85ad9772e6624305d",
+                          "5d6d3716a4b9361bc8618872",
+                          "5c091a4e0db834001d5addc8",
+                          "5c0e874186f7745dc7616606",
+                          "61bca7cda0eae612383adf57",
+                          "5c0d2727d174af02a012cf58",
+                          "5f60c74e3b85f6263c145586",
+                          "5c08f87c0db8340019124324",
+                          "5c06c6a80db834001b735491",
+                          "5e4bfc1586f774264f7582d3",
+                          "5e00c1ad86f774747333222c",
+                          "5e01ef6886f77445f643baa4",
+                          "5ca20ee186f774799474abc2",
+                          "59ef13ca86f77445fd0e2483",
+                          "55818aeb4bdc2ddc698b456a",
+                          "5448bc234bdc2d3c308b4569",
+                          "5b3b6dc75acfc47a8773fb1e",
+                          "5a1ead28fcdbcb001912fa9f",
+                          "587e08ee245977446b4410cf",
+                          "5c0695860db834001b735461",
+                          "5a16b93dfcdbcbcae6687261",
+                          "5a16b8a9fcdbcb00165aa6ca",
+                          "5c11046cd174af02a012e42b",
+                          "5448bf274bdc2dfc2f8b456a",
+                          "543be6564bdc2df4348b4568",
+                          "6389c7750ef44505c87f5996",
+                          "6389c85357baa773a825b356",
+                          "6389c7f115805221fb410466",
+                          "5656eb674bdc2d35148b457c",
+                          "5ede474b0c226a66f5402622",
+                          "5ede475b549eed7c6d5c18fb",
+                          "5ede4739e0350d05467f73e8",
+                          "5f0c892565703e5c461894e9",
+                          "5ede47405b097655935d7d16",
+                          "5ede475339ee016e8c534742",
+                          "55818b014bdc2ddc698b456b",
+                          "5448e54d4bdc2dcc718b4568",
+                          "5ca2113f86f7740b2547e1d2",
+                          "5ea058e01dbce517f324b3e2",
+                          "5e01f37686f774773c6f6c15",
+                          "5e00cdd986f7747473332240",
+                          "5f60c85b58eff926626a60f7",
+                          "5c0919b50db834001b7ce3b9",
+                          "5c0e842486f77443a74d2976",
+                          "5d6d3829a4b9361bc8618943",
+                          "5d6d3be5a4b9361bc73bc763",
+                          "5b46238386f7741a693bcf9c",
+                          "5ac4c50d5acfc40019262e87",
+                          "5f60c076f2bcbb675b00dac2",
+                          "5c0e66e2d174af02a96252f4",
+                          "5f60bf4558eff926626a60f2",
+                          "5f60b85bbdb8e27dee3dc985",
+                          "5ea18c84ecf1982c7712d9a2",
+                          "5c1793902e221602b21d3de2",
+                          "5c178a942e22164bef5ceca3",
+                          "5aa7e3abe5b5b000171d064d",
+                          "5e01f31d86f77465cf261343",
+                          "5e00cfa786f77469dc6e5685",
+                          "5a16b7e1fcdbcb00165aa6c9",
+                          "5a16b672fcdbcb001912fa83",
+                          "5a16badafcdbcb001865f72d",
+                          "5a16ba61fcdbcb098008728a",
+                          "5aa7e373e5b5b000137b76f0",
+                          "5b432b2f5acfc4771e1c6622",
+                          "62a09e08de7ac81993580532",
+                          "62a61c988ec41a51b34758d5",
+                          "603409c80ca681766b6a0fb2"
+                        ],
+                        "ExcludedFilter": []
+                      }
+                    ],
+                    "cellsH": 4,
+                    "cellsV": 6,
+                    "minCount": 0,
+                    "maxCount": 0,
+                    "maxWeight": 0,
+                    "isSortingTable": false
+                  },
+                  "_proto": "55d329c24bdc2d892f8b4567"
+                },
+                {
+                    "_name": "main2",
+                    "_id": "5c093ca986f7740a1867ab14",
+                    "_parent": "GC_Cerberus",
+                    "_props": {
+                      "filters": [
+                        {
+                          "Filter": [
+                            "5448eb774bdc2d0a728b4567",
+                            "5448fe124bdc2da5018b4567",
+                            "60b0f6c058e0b0481a09ad11",
+                            "619cbf9e0a7c3a1a2731940a",
+                            "619cbf7d23893217ec30b689",
+                            "59fafd4b86f7745ca07e1232",
+                            "62a09d3bcf4a99369e262447",
+                            "5d235bb686f77443f4331278",
+                            "5c093e3486f77430cb02e593",
+                            "590c60fc86f77412b13fddcf",
+                            "5783c43d2459774bbe137486",
+                            "543be6674bdc2df1348b4569",
+                            "5448ecbe4bdc2d60728b4568",
+                            "543be5e94bdc2df1348b4568",
+                            "5447e1d04bdc2dff2f8b4567",
+                            "567849dd4bdc2d150f8b456e",
+                            "543be5664bdc2dd4348b4569",
+                            "5447e0e74bdc2d3c308b4567",
+                            "5661632d4bdc2d903d8b456b",
+                            "5645bc214bdc2d363b8b4571",
+                            "5aa7cfc0e5b5b00015693143",
+                            "5aa7e276e5b5b000171d0647",
+                            "5c066ef40db834001966a595",
+                            "5df8a58286f77412631087ed",
+                            "59e7711e86f7746cae05fbe1",
+                            "5d5e7d28a4b936645d161203",
+                            "5d5e9c74a4b9364855191c40",
+                            "5a154d5cfcdbcb001a3b00da",
+                            "5ac8d6885acfc400180ae7b0",
+                            "5a7c4850e899ef00150be885",
+                            "5aa7d193e5b5b000171d063f",
+                            "5aa7d03ae5b5b00016327db5",
+                            "5a16bb52fcdbcb001a3b00dc",
+                            "5aa7e454e5b5b0214e506fa2",
+                            "5aa7e4a4e5b5b000137b76f2",
+                            "5b4329f05acfc47a86086aa1",
+                            "5b40e3f35acfc40016388218",
+                            "5b40e4035acfc47a87740943",
+                            "5b432d215acfc4771e1c6624",
+                            "5b40e1525acfc4771e1c6611",
+                            "5b40e2bc5acfc40016388216",
+                            "5c17a7ed2e2216152142459c",
+                            "5ea17ca01412a1425304d1c0",
+                            "5f60b34a41e30a4ab12a6947",
+                            "5ea05cf85ad9772e6624305d",
+                            "5d6d3716a4b9361bc8618872",
+                            "5c091a4e0db834001d5addc8",
+                            "5c0e874186f7745dc7616606",
+                            "61bca7cda0eae612383adf57",
+                            "5c0d2727d174af02a012cf58",
+                            "5f60c74e3b85f6263c145586",
+                            "5c08f87c0db8340019124324",
+                            "5c06c6a80db834001b735491",
+                            "5e4bfc1586f774264f7582d3",
+                            "5e00c1ad86f774747333222c",
+                            "5e01ef6886f77445f643baa4",
+                            "5ca20ee186f774799474abc2",
+                            "59ef13ca86f77445fd0e2483",
+                            "55818aeb4bdc2ddc698b456a",
+                            "5448bc234bdc2d3c308b4569",
+                            "5b3b6dc75acfc47a8773fb1e",
+                            "5a1ead28fcdbcb001912fa9f",
+                            "587e08ee245977446b4410cf",
+                            "5c0695860db834001b735461",
+                            "5a16b93dfcdbcbcae6687261",
+                            "5a16b8a9fcdbcb00165aa6ca",
+                            "5c11046cd174af02a012e42b",
+                            "5448bf274bdc2dfc2f8b456a",
+                            "543be6564bdc2df4348b4568",
+                            "6389c7750ef44505c87f5996",
+                            "6389c85357baa773a825b356",
+                            "6389c7f115805221fb410466",
+                            "5656eb674bdc2d35148b457c",
+                            "5ede474b0c226a66f5402622",
+                            "5ede475b549eed7c6d5c18fb",
+                            "5ede4739e0350d05467f73e8",
+                            "5f0c892565703e5c461894e9",
+                            "5ede47405b097655935d7d16",
+                            "5ede475339ee016e8c534742",
+                            "55818b014bdc2ddc698b456b",
+                            "5448e54d4bdc2dcc718b4568",
+                            "5ca2113f86f7740b2547e1d2",
+                            "5ea058e01dbce517f324b3e2",
+                            "5e01f37686f774773c6f6c15",
+                            "5e00cdd986f7747473332240",
+                            "5f60c85b58eff926626a60f7",
+                            "5c0919b50db834001b7ce3b9",
+                            "5c0e842486f77443a74d2976",
+                            "5d6d3829a4b9361bc8618943",
+                            "5d6d3be5a4b9361bc73bc763",
+                            "5b46238386f7741a693bcf9c",
+                            "5ac4c50d5acfc40019262e87",
+                            "5f60c076f2bcbb675b00dac2",
+                            "5c0e66e2d174af02a96252f4",
+                            "5f60bf4558eff926626a60f2",
+                            "5f60b85bbdb8e27dee3dc985",
+                            "5ea18c84ecf1982c7712d9a2",
+                            "5c1793902e221602b21d3de2",
+                            "5c178a942e22164bef5ceca3",
+                            "5aa7e3abe5b5b000171d064d",
+                            "5e01f31d86f77465cf261343",
+                            "5e00cfa786f77469dc6e5685",
+                            "5a16b7e1fcdbcb00165aa6c9",
+                            "5a16b672fcdbcb001912fa83",
+                            "5a16badafcdbcb001865f72d",
+                            "5a16ba61fcdbcb098008728a",
+                            "5aa7e373e5b5b000137b76f0",
+                            "5b432b2f5acfc4771e1c6622",
+                            "62a09e08de7ac81993580532",
+                            "62a61c988ec41a51b34758d5",
+                            "603409c80ca681766b6a0fb2"
+                          ],
+                          "ExcludedFilter": []
+                        }
+                      ],
+                      "cellsH": 2,
+                      "cellsV": 4,
+                      "minCount": 0,
+                      "maxCount": 0,
+                      "maxWeight": 0,
+                      "isSortingTable": false
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                }
+              ],
+              "Slots": [],
+              "CanPutIntoDuringTheRaid": true,
+              "CantRemoveFromSlotsDuringRaid": [
+                "SecuredContainer"
+              ],
+              "SearchSound": "cashregister_looting",
+              "BlocksArmorVest": false,
+              "containType": [],
+              "sizeWidth": 2,
+              "sizeHeight": 2,
+              "isSecured": true,
+              "spawnTypes": "None",
+              "lootFilter": [],
+              "spawnRarity": "Common",
+              "minCountSpawn": 0,
+              "maxCountSpawn": 0,
+              "openedByKeyID": []
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "MickysTac": {
+        "_id": "MickysTac",
+        "_name": "MickysTac",
+        "_parent": "5448bf274bdc2dfc2f8b456a",
+        "_type": "Item",
+        "_props": {
+          "Name": "MickysTac",
+          "ShortName": "Lunch",
+          "Description": "The best way to secure your good stuff when you're broke is to put it something that looks worthless. The best way when you're rich is to buy something with a lot of annoying gizmos. With this, you get the best of both.",
+          "Weight": 2,
+          "BackgroundColor": "violet",
+          "Width": 2,
+          "Height": 2,
+          "StackMaxSize": 1,
+          "ItemSound": "container_plastic",
+          "Prefab": {
+            "path": "mickylunchbox.goblin",
+            "rcid": ""
+          },
+          "UsePrefab": {
+            "path": "",
+            "rcid": ""
+          },
+          "StackObjectsCount": 1,
+          "NotShownInSlot": false,
+          "ExaminedByDefault": false,
+          "ExamineTime": 1,
+          "IsUndiscardable": false,
+          "IsUnsaleable": false,
+          "IsUnbuyable": false,
+          "IsUngivable": false,
+          "IsLockedafterEquip": false,
+          "QuestItem": false,
+          "LootExperience": 0,
+          "ExamineExperience": 100,
+          "HideEntrails": true,
+          "RepairCost": 0,
+          "RepairSpeed": 0,
+          "ExtraSizeLeft": 0,
+          "ExtraSizeRight": 0,
+          "ExtraSizeUp": 0,
+          "ExtraSizeDown": 0,
+          "ExtraSizeForceAdd": false,
+          "MergesWithChildren": false,
+          "CanSellOnRagfair": false,
+          "CanRequireOnRagfair": false,
+          "ConflictingItems": [],
+          "Unlootable": false,
+          "UnlootableFromSlot": "FirstPrimaryWeapon",
+          "UnlootableFromSide": [],
+          "AnimationVariantsNumber": 0,
+          "DiscardingBlock": true,
+          "RagFairCommissionModifier": 1,
+          "IsAlwaysAvailableForInsurance": false,
+          "DiscardLimit": -1,
+          "DropSoundType": "None",
+          "InsuranceDisabled": false,
+          "QuestStashMaxCount": 0,
+          "IsSpecialSlotOnly": false,
+          "IsUnremovable": false,
+          "Grids": [
+            {
+                "_id": "5648a6f44bdc2d3b4c8b4576",
+                "_name": "1",
+                "_parent": "MickysTac",
+                "_props": {
+                  "cellsH": 2,
+                  "cellsV": 2,
+                  "filters": [
+                    {
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ],
+                      "Filter": [
+                        "54009119af1c881c07000029",
+                        "GoblinBoltHole",
+                        "GoblinMedBox"
+                      ]
+                    }
+                  ],
+                  "isSortingTable": false,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "minCount": 0
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_id": "5648a6f74bdc2d363b8b4576",
+                "_name": "2",
+                "_parent": "MickysTac",
+                "_props": {
+                  "cellsH": 1,
+                  "cellsV": 1,
+                  "filters": [
+                    {
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ],
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ]
+                    }
+                  ],
+                  "isSortingTable": false,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "minCount": 0
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_id": "5648a6f94bdc2d16268b4577",
+                "_name": "3",
+                "_parent": "MickysTac",
+                "_props": {
+                  "cellsH": 1,
+                  "cellsV": 1,
+                  "filters": [
+                    {
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ],
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ]
+                    }
+                  ],
+                  "isSortingTable": false,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "minCount": 0
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              },
+              {
+                "_id": "5648a6fc4bdc2df8348b457f",
+                "_name": "4",
+                "_parent": "MickysTac",
+                "_props": {
+                  "cellsH": 1,
+                  "cellsV": 1,
+                  "filters": [
+                    {
+                      "ExcludedFilter": [
+                        "5448bf274bdc2dfc2f8b456a"
+                      ],
+                      "Filter": [
+                        "54009119af1c881c07000029"
+                      ]
+                    }
+                  ],
+                  "isSortingTable": false,
+                  "maxCount": 0,
+                  "maxWeight": 0,
+                  "minCount": 0
+                },
+                "_proto": "55d329c24bdc2d892f8b4567"
+              }
+
+          ],
+          "Slots": [],
+          "CanPutIntoDuringTheRaid": true,
+          "CantRemoveFromSlotsDuringRaid": [
+            "SecuredContainer"
+          ],
+          "SearchSound": "cashregister_looting",
+          "BlocksArmorVest": false,
+          "containType": [],
+          "sizeWidth": 2,
+          "sizeHeight": 2,
+          "isSecured": true,
+          "spawnTypes": "None",
+          "lootFilter": [],
+          "spawnRarity": "Rare",
+          "minCountSpawn": 0,
+          "maxCountSpawn": 0,
+          "openedByKeyID": []
+        },
+        "_proto": "577e1c9d2459773cd707c525"
+        },
+        "BSGTheft": {
+            "_id": "BSGTheft",
+            "_name": "BSGTheft",
+            "_parent": "5448bf274bdc2dfc2f8b456a",
+            "_type": "Item",
+            "_props": {
+              "Name": "BSGTheft",
+              "ShortName": "OMNI",
+              "Description": "You ever feel like your better than some people? Well, now you can.",
+              "Weight": 2,
+              "BackgroundColor": "violet",
+              "Width": 2,
+              "Height": 2,
+              "StackMaxSize": 1,
+              "ItemSound": "container_plastic",
+              "Prefab": {
+                "path": "bsgtheft.goblin",
+                "rcid": ""
+              },
+              "UsePrefab": {
+                "path": "",
+                "rcid": ""
+              },
+              "StackObjectsCount": 1,
+              "NotShownInSlot": false,
+              "ExaminedByDefault": false,
+              "ExamineTime": 1,
+              "IsUndiscardable": false,
+              "IsUnsaleable": false,
+              "IsUnbuyable": false,
+              "IsUngivable": false,
+              "IsLockedafterEquip": false,
+              "QuestItem": false,
+              "LootExperience": 0,
+              "ExamineExperience": 100,
+              "HideEntrails": true,
+              "RepairCost": 0,
+              "RepairSpeed": 0,
+              "ExtraSizeLeft": 0,
+              "ExtraSizeRight": 0,
+              "ExtraSizeUp": 0,
+              "ExtraSizeDown": 0,
+              "ExtraSizeForceAdd": false,
+              "MergesWithChildren": false,
+              "CanSellOnRagfair": false,
+              "CanRequireOnRagfair": false,
+              "ConflictingItems": [],
+              "Unlootable": false,
+              "UnlootableFromSlot": "FirstPrimaryWeapon",
+              "UnlootableFromSide": [],
+              "AnimationVariantsNumber": 0,
+              "DiscardingBlock": true,
+              "RagFairCommissionModifier": 1,
+              "IsAlwaysAvailableForInsurance": false,
+              "DiscardLimit": -1,
+              "DropSoundType": "None",
+              "InsuranceDisabled": false,
+              "QuestStashMaxCount": 0,
+              "IsSpecialSlotOnly": false,
+              "IsUnremovable": false,
+              "Grids": [
+                {
+                    "_id": "5648a6f44bdc2d3b4c8b4576",
+                    "_name": "1",
+                    "_parent": "BSGTheft",
+                    "_props": {
+                      "cellsH": 1,
+                      "cellsV": 3,
+                      "filters": [
+                        {
+                          "ExcludedFilter": [
+                            "5448bf274bdc2dfc2f8b456a"
+                          ],
+                          "Filter": [
+                            "54009119af1c881c07000029",
+                            "GoblinBoltHole",
+                            "GoblinMedBox"
+                          ]
+                        }
+                      ],
+                      "isSortingTable": false,
+                      "maxCount": 0,
+                      "maxWeight": 0,
+                      "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                  },
+                  {
+                    "_id": "5648a6f74bdc2d363b8b4576",
+                    "_name": "2",
+                    "_parent": "BSGTheft",
+                    "_props": {
+                      "cellsH": 3,
+                      "cellsV": 3,
+                      "filters": [
+                        {
+                          "ExcludedFilter": [
+                            "5448bf274bdc2dfc2f8b456a"
+                          ],
+                          "Filter": [
+                            "54009119af1c881c07000029"
+                          ]
+                        }
+                      ],
+                      "isSortingTable": false,
+                      "maxCount": 0,
+                      "maxWeight": 0,
+                      "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                  }
+    
+              ],
+              "Slots": [],
+              "CanPutIntoDuringTheRaid": true,
+              "CantRemoveFromSlotsDuringRaid": [
+                "SecuredContainer"
+              ],
+              "SearchSound": "cashregister_looting",
+              "BlocksArmorVest": false,
+              "containType": [],
+              "sizeWidth": 2,
+              "sizeHeight": 2,
+              "isSecured": true,
+              "spawnTypes": "None",
+              "lootFilter": [],
+              "spawnRarity": "Rare",
+              "minCountSpawn": 0,
+              "maxCountSpawn": 0,
+              "openedByKeyID": []
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "Prisonwallet": {
+            "_id": "Prisonwallet",
+            "_name": "Prisonwallet",
+            "_parent": "5448bf274bdc2dfc2f8b456a",
+            "_type": "Item",
+            "_props": {
+              "Name": "Prisonwallet",
+              "ShortName": "FISH",
+              "Description": "Inspired by my Abolito, Rogerio. There wasn't a lure or hook you couldn't find in that tacklebox. Happy Fishing, Jefe.",
+              "Weight": 2,
+              "BackgroundColor": "violet",
+              "Width": 2,
+              "Height": 2,
+              "StackMaxSize": 1,
+              "ItemSound": "container_plastic",
+              "Prefab": {
+                "path": "prisonwallet.goblin",
+                "rcid": ""
+              },
+              "UsePrefab": {
+                "path": "",
+                "rcid": ""
+              },
+              "StackObjectsCount": 1,
+              "NotShownInSlot": false,
+              "ExaminedByDefault": false,
+              "ExamineTime": 1,
+              "IsUndiscardable": false,
+              "IsUnsaleable": false,
+              "IsUnbuyable": false,
+              "IsUngivable": false,
+              "IsLockedafterEquip": false,
+              "QuestItem": false,
+              "LootExperience": 0,
+              "ExamineExperience": 100,
+              "HideEntrails": true,
+              "RepairCost": 0,
+              "RepairSpeed": 0,
+              "ExtraSizeLeft": 0,
+              "ExtraSizeRight": 0,
+              "ExtraSizeUp": 0,
+              "ExtraSizeDown": 0,
+              "ExtraSizeForceAdd": false,
+              "MergesWithChildren": false,
+              "CanSellOnRagfair": false,
+              "CanRequireOnRagfair": false,
+              "ConflictingItems": [],
+              "Unlootable": false,
+              "UnlootableFromSlot": "FirstPrimaryWeapon",
+              "UnlootableFromSide": [],
+              "AnimationVariantsNumber": 0,
+              "DiscardingBlock": true,
+              "RagFairCommissionModifier": 1,
+              "IsAlwaysAvailableForInsurance": false,
+              "DiscardLimit": -1,
+              "DropSoundType": "None",
+              "InsuranceDisabled": false,
+              "QuestStashMaxCount": 0,
+              "IsSpecialSlotOnly": false,
+              "IsUnremovable": false,
+              "Grids": [
+                  {
+                    "_id": "5648a6f44bdc2d3b4c8b4576",
+                    "_name": "1",
+                    "_parent": "Prisonwallet",
+                    "_props": {
+                      "cellsH": 3,
+                      "cellsV": 3,
+                      "filters": [
+                        {
+                          "ExcludedFilter": [
+                            "5448bf274bdc2dfc2f8b456a"
+                          ],
+                          "Filter": [
+                            "54009119af1c881c07000029",
+                            "GoblinBoltHole",
+                            "GoblinMedBox"
+                          ]
+                        }
+                      ],
+                      "isSortingTable": false,
+                      "maxCount": 0,
+                      "maxWeight": 0,
+                      "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                  },
+                  {
+                    "_id": "5648a6f74bdc2d363b8b4576",
+                    "_name": "2",
+                    "_parent": "Prisonwallet",
+                    "_props": {
+                      "cellsH": 1,
+                      "cellsV": 1,
+                      "filters": [
+                        {
+                          "ExcludedFilter": [
+                            "5448bf274bdc2dfc2f8b456a"
+                          ],
+                          "Filter": [
+                            "54009119af1c881c07000029"
+                          ]
+                        }
+                      ],
+                      "isSortingTable": false,
+                      "maxCount": 0,
+                      "maxWeight": 0,
+                      "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                  },
+                  {
+                    "_id": "5648a6f74bdc2d363b8b4576",
+                    "_name": "3",
+                    "_parent": "Prisonwallet",
+                    "_props": {
+                      "cellsH": 1,
+                      "cellsV": 2,
+                      "filters": [
+                        {
+                          "ExcludedFilter": [
+                            "5448bf274bdc2dfc2f8b456a"
+                          ],
+                          "Filter": [
+                            "54009119af1c881c07000029"
+                          ]
+                        }
+                      ],
+                      "isSortingTable": false,
+                      "maxCount": 0,
+                      "maxWeight": 0,
+                      "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                  },
+                  {
+                    "_id": "5648a6f74bdc2d363b8b4576",
+                    "_name": "4",
+                    "_parent": "Prisonwallet",
+                    "_props": {
+                      "cellsH": 1,
+                      "cellsV": 2,
+                      "filters": [
+                        {
+                          "ExcludedFilter": [
+                            "5448bf274bdc2dfc2f8b456a"
+                          ],
+                          "Filter": [
+                            "54009119af1c881c07000029"
+                          ]
+                        }
+                      ],
+                      "isSortingTable": false,
+                      "maxCount": 0,
+                      "maxWeight": 0,
+                      "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                  }
+                   ],
+              "Slots": [],
+              "CanPutIntoDuringTheRaid": true,
+              "CantRemoveFromSlotsDuringRaid": [
+                "SecuredContainer"
+              ],
+              "SearchSound": "cashregister_looting",
+              "BlocksArmorVest": false,
+              "containType": [],
+              "sizeWidth": 2,
+              "sizeHeight": 2,
+              "isSecured": true,
+              "spawnTypes": "None",
+              "lootFilter": [],
+              "spawnRarity": "Rare",
+              "minCountSpawn": 0,
+              "maxCountSpawn": 0,
+              "openedByKeyID": []
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "Coyote": {
+            "_id": "Coyote",
+            "_name": "Coyote",
+            "_parent": "5448bf274bdc2dfc2f8b456a",
+            "_type": "Item",
+            "_props": {
+              "Name": "Coyote",
+              "ShortName": "WOOF",
+              "Description": "Ain't fitting no migrants in here, well I guess you could but they wouldnt be alive.",
+              "Weight": 2,
+              "BackgroundColor": "violet",
+              "Width": 2,
+              "Height": 2,
+              "StackMaxSize": 1,
+              "ItemSound": "container_plastic",
+              "Prefab": {
+                "path": "coyotebox.goblin",
+                "rcid": ""
+              },
+              "UsePrefab": {
+                "path": "",
+                "rcid": ""
+              },
+              "StackObjectsCount": 1,
+              "NotShownInSlot": false,
+              "ExaminedByDefault": false,
+              "ExamineTime": 1,
+              "IsUndiscardable": false,
+              "IsUnsaleable": false,
+              "IsUnbuyable": false,
+              "IsUngivable": false,
+              "IsLockedafterEquip": false,
+              "QuestItem": false,
+              "LootExperience": 0,
+              "ExamineExperience": 100,
+              "HideEntrails": true,
+              "RepairCost": 0,
+              "RepairSpeed": 0,
+              "ExtraSizeLeft": 0,
+              "ExtraSizeRight": 0,
+              "ExtraSizeUp": 0,
+              "ExtraSizeDown": 0,
+              "ExtraSizeForceAdd": false,
+              "MergesWithChildren": false,
+              "CanSellOnRagfair": false,
+              "CanRequireOnRagfair": false,
+              "ConflictingItems": [],
+              "Unlootable": false,
+              "UnlootableFromSlot": "FirstPrimaryWeapon",
+              "UnlootableFromSide": [],
+              "AnimationVariantsNumber": 0,
+              "DiscardingBlock": true,
+              "RagFairCommissionModifier": 1,
+              "IsAlwaysAvailableForInsurance": false,
+              "DiscardLimit": -1,
+              "DropSoundType": "None",
+              "InsuranceDisabled": false,
+              "QuestStashMaxCount": 0,
+              "IsSpecialSlotOnly": false,
+              "IsUnremovable": false,
+              "Grids": [
+                {
+                    "_id": "5648a6f44bdc2d3b4c8b4576",
+                    "_name": "1",
+                    "_parent": "Coyote",
+                    "_props": {
+                      "cellsH": 4,
+                      "cellsV": 3,
+                      "filters": [
+                        {
+                          "ExcludedFilter": [
+                            "5448bf274bdc2dfc2f8b456a"
+                          ],
+                          "Filter": [
+                            "54009119af1c881c07000029",
+                            "GoblinBoltHole",
+                            "GoblinMedBox"
+                          ]
+                        }
+                      ],
+                      "isSortingTable": false,
+                      "maxCount": 0,
+                      "maxWeight": 0,
+                      "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                  },
+                  {
+                    "_id": "5648a6f74bdc2d363b8b4576",
+                    "_name": "2",
+                    "_parent": "Coyote",
+                    "_props": {
+                      "cellsH": 2,
+                      "cellsV": 2,
+                      "filters": [
+                        {
+                          "ExcludedFilter": [
+                            "5448bf274bdc2dfc2f8b456a"
+                          ],
+                          "Filter": [
+                            "54009119af1c881c07000029"
+                          ]
+                        }
+                      ],
+                      "isSortingTable": false,
+                      "maxCount": 0,
+                      "maxWeight": 0,
+                      "minCount": 0
+                    },
+                    "_proto": "55d329c24bdc2d892f8b4567"
+                  }
+                ],
+              "Slots": [],
+              "CanPutIntoDuringTheRaid": true,
+              "CantRemoveFromSlotsDuringRaid": [
+                "SecuredContainer"
+              ],
+              "SearchSound": "cashregister_looting",
+              "BlocksArmorVest": false,
+              "containType": [],
+              "sizeWidth": 2,
+              "sizeHeight": 2,
+              "isSecured": true,
+              "spawnTypes": "None",
+              "lootFilter": [],
+              "spawnRarity": "Rare",
+              "minCountSpawn": 0,
+              "maxCountSpawn": 0,
+              "openedByKeyID": []
+            },
+            "_proto": "577e1c9d2459773cd707c525"
+        },
+        "GoblinSec": {
+                "_id": "GoblinSec",
+                "_name": "GoblinSec",
+                "_parent": "5448bf274bdc2dfc2f8b456a",
+                "_type": "Item",
+                "_props": {
+                  "Name": "GoblinSec",
+                  "ShortName": "DAD",
+                  "Description": "Everyone knows the rules. Don't touch Papi's tools.",
+                  "Weight": 2,
+                  "BackgroundColor": "violet",
+                  "Width": 2,
+                  "Height": 2,
+                  "StackMaxSize": 1,
+                  "ItemSound": "container_plastic",
+                  "Prefab": {
+                    "path": "goblinsecurity.goblin",
+                    "rcid": ""
+                  },
+                  "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                  },
+                  "StackObjectsCount": 1,
+                  "NotShownInSlot": false,
+                  "ExaminedByDefault": false,
+                  "ExamineTime": 1,
+                  "IsUndiscardable": false,
+                  "IsUnsaleable": false,
+                  "IsUnbuyable": false,
+                  "IsUngivable": false,
+                  "IsLockedafterEquip": false,
+                  "QuestItem": false,
+                  "LootExperience": 0,
+                  "ExamineExperience": 100,
+                  "HideEntrails": true,
+                  "RepairCost": 0,
+                  "RepairSpeed": 0,
+                  "ExtraSizeLeft": 0,
+                  "ExtraSizeRight": 0,
+                  "ExtraSizeUp": 0,
+                  "ExtraSizeDown": 0,
+                  "ExtraSizeForceAdd": false,
+                  "MergesWithChildren": false,
+                  "CanSellOnRagfair": false,
+                  "CanRequireOnRagfair": false,
+                  "ConflictingItems": [],
+                  "Unlootable": false,
+                  "UnlootableFromSlot": "FirstPrimaryWeapon",
+                  "UnlootableFromSide": [],
+                  "AnimationVariantsNumber": 0,
+                  "DiscardingBlock": true,
+                  "RagFairCommissionModifier": 1,
+                  "IsAlwaysAvailableForInsurance": false,
+                  "DiscardLimit": -1,
+                  "DropSoundType": "None",
+                  "InsuranceDisabled": false,
+                  "QuestStashMaxCount": 0,
+                  "IsSpecialSlotOnly": false,
+                  "IsUnremovable": false,
+                  "Grids": [
+                    {
+                        "_id": "5648a6f44bdc2d3b4c8b4576",
+                        "_name": "1",
+                        "_parent": "Padre",
+                        "_props": {
+                          "cellsH": 4,
+                          "cellsV": 4,
+                          "filters": [
+                            {
+                              "ExcludedFilter": [
+                                "5448bf274bdc2dfc2f8b456a"
+                              ],
+                              "Filter": [
+                                "54009119af1c881c07000029",
+                                "GoblinBoltHole",
+                                "GoblinMedBox"
+                              ]
+                            }
+                          ],
+                          "isSortingTable": false,
+                          "maxCount": 0,
+                          "maxWeight": 0,
+                          "minCount": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                      },
+                      {
+                        "_id": "5648a6f74bdc2d363b8b4576",
+                        "_name": "2",
+                        "_parent": "Padre",
+                        "_props": {
+                          "cellsH": 1,
+                          "cellsV": 3,
+                          "filters": [
+                            {
+                              "ExcludedFilter": [
+                                "5448bf274bdc2dfc2f8b456a"
+                              ],
+                              "Filter": [
+                                "54009119af1c881c07000029"
+                              ]
+                            }
+                          ],
+                          "isSortingTable": false,
+                          "maxCount": 0,
+                          "maxWeight": 0,
+                          "minCount": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                      },
+                      {
+                        "_id": "5648a6f74bdc2d363b8b4576",
+                        "_name": "3",
+                        "_parent": "Padre",
+                        "_props": {
+                          "cellsH": 1,
+                          "cellsV": 3,
+                          "filters": [
+                            {
+                              "ExcludedFilter": [
+                                "5448bf274bdc2dfc2f8b456a"
+                              ],
+                              "Filter": [
+                                "54009119af1c881c07000029"
+                              ]
+                            }
+                          ],
+                          "isSortingTable": false,
+                          "maxCount": 0,
+                          "maxWeight": 0,
+                          "minCount": 0
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                      }
+                    ],
+                  "Slots": [],
+                  "CanPutIntoDuringTheRaid": true,
+                  "CantRemoveFromSlotsDuringRaid": [
+                    "SecuredContainer"
+                  ],
+                  "SearchSound": "cashregister_looting",
+                  "BlocksArmorVest": false,
+                  "containType": [],
+                  "sizeWidth": 2,
+                  "sizeHeight": 2,
+                  "isSecured": true,
+                  "spawnTypes": "None",
+                  "lootFilter": [],
+                  "spawnRarity": "Rare",
+                  "minCountSpawn": 0,
+                  "maxCountSpawn": 0,
+                  "openedByKeyID": []
+                },
+                "_proto": "577e1c9d2459773cd707c525"
+        },
+        "DHS": {
+                    "_id": "DHS",
+                    "_name": "DHS",
+                    "_parent": "5448bf274bdc2dfc2f8b456a",
+                    "_type": "Item",
+                    "_props": {
+                      "Name": "DHS Security Locker",
+                      "ShortName": "DHS",
+                      "Description": "Good luck getting the white girl powder out of this.",
+                      "Weight": 2,
+                      "BackgroundColor": "violet",
+                      "Width": 2,
+                      "Height": 2,
+                      "StackMaxSize": 1,
+                      "ItemSound": "container_plastic",
+                      "Prefab": {
+                        "path": "dhslocker.goblin",
+                        "rcid": ""
+                      },
+                      "UsePrefab": {
+                        "path": "",
+                        "rcid": ""
+                      },
+                      "StackObjectsCount": 1,
+                      "NotShownInSlot": false,
+                      "ExaminedByDefault": false,
+                      "ExamineTime": 1,
+                      "IsUndiscardable": false,
+                      "IsUnsaleable": false,
+                      "IsUnbuyable": false,
+                      "IsUngivable": false,
+                      "IsLockedafterEquip": false,
+                      "QuestItem": false,
+                      "LootExperience": 0,
+                      "ExamineExperience": 100,
+                      "HideEntrails": true,
+                      "RepairCost": 0,
+                      "RepairSpeed": 0,
+                      "ExtraSizeLeft": 0,
+                      "ExtraSizeRight": 0,
+                      "ExtraSizeUp": 0,
+                      "ExtraSizeDown": 0,
+                      "ExtraSizeForceAdd": false,
+                      "MergesWithChildren": false,
+                      "CanSellOnRagfair": false,
+                      "CanRequireOnRagfair": false,
+                      "ConflictingItems": [],
+                      "Unlootable": false,
+                      "UnlootableFromSlot": "FirstPrimaryWeapon",
+                      "UnlootableFromSide": [],
+                      "AnimationVariantsNumber": 0,
+                      "DiscardingBlock": true,
+                      "RagFairCommissionModifier": 1,
+                      "IsAlwaysAvailableForInsurance": false,
+                      "DiscardLimit": -1,
+                      "DropSoundType": "None",
+                      "InsuranceDisabled": false,
+                      "QuestStashMaxCount": 0,
+                      "IsSpecialSlotOnly": false,
+                      "IsUnremovable": false,
+                      "Grids": [
+                        {
+                            "_id": "DHS",
+                            "_name": "1",
+                            "_parent": "DHS",
+                            "_props": {
+                              "cellsH": 4,
+                              "cellsV": 4,
+                              "filters": [
+                                {
+                                  "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                  ],
+                                  "Filter": [
+                                    "54009119af1c881c07000029",
+                                    "GoblinBoltHole",
+                                    "GoblinMedBox"
+                                  ]
+                                }
+                              ],
+                              "isSortingTable": false,
+                              "maxCount": 0,
+                              "maxWeight": 0,
+                              "minCount": 0
+                            },
+                            "_proto": "55d329c24bdc2d892f8b4567"
+                          },
+                          {
+                            "_id": "5648a6f74bdc2d363b8b4576",
+                            "_name": "2",
+                            "_parent": "DHS",
+                            "_props": {
+                              "cellsH": 1,
+                              "cellsV": 4,
+                              "filters": [
+                                {
+                                  "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                  ],
+                                  "Filter": [
+                                    "54009119af1c881c07000029"
+                                  ]
+                                }
+                              ],
+                              "isSortingTable": false,
+                              "maxCount": 0,
+                              "maxWeight": 0,
+                              "minCount": 0
+                            },
+                            "_proto": "55d329c24bdc2d892f8b4567"
+                          },
+                          {
+                            "_id": "5648a6f74bdc2d363b8b4576",
+                            "_name": "3",
+                            "_parent": "DHS",
+                            "_props": {
+                              "cellsH": 1,
+                              "cellsV": 4,
+                              "filters": [
+                                {
+                                  "ExcludedFilter": [
+                                    "5448bf274bdc2dfc2f8b456a"
+                                  ],
+                                  "Filter": [
+                                    "54009119af1c881c07000029"
+                                  ]
+                                }
+                              ],
+                              "isSortingTable": false,
+                              "maxCount": 0,
+                              "maxWeight": 0,
+                              "minCount": 0
+                            },
+                            "_proto": "55d329c24bdc2d892f8b4567"
+                          }
+                        ],
+                      "Slots": [],
+                      "CanPutIntoDuringTheRaid": true,
+                      "CantRemoveFromSlotsDuringRaid": [
+                        "SecuredContainer"
+                      ],
+                      "SearchSound": "cashregister_looting",
+                      "BlocksArmorVest": false,
+                      "containType": [],
+                      "sizeWidth": 2,
+                      "sizeHeight": 2,
+                      "isSecured": true,
+                      "spawnTypes": "None",
+                      "lootFilter": [],
+                      "spawnRarity": "Rare",
+                      "minCountSpawn": 0,
+                      "maxCountSpawn": 0,
+                      "openedByKeyID": []
+                    },
+                    "_proto": "577e1c9d2459773cd707c525"
+        }
+
+}
+}

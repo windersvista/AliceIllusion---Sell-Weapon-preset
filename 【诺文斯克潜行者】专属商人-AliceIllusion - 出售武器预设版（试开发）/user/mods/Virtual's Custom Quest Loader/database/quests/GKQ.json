@@ -1,0 +1,3321 @@
+{
+    "GK_1": {
+        "QuestName": "Tell them all what I came to do.",
+        "_id": "GK_1",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_1 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_1_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "Savage",
+                                        "savageRole": ["bossTagilla"],
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "id": "GK_1_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["factory4_day"],
+                                        "id": "GK_1_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_1_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_1_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 1,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_1 description",
+        "failMessageText": "GK_1 failMessageText",
+        "name": "GK_1 name",
+        "note": "GK_1 note",
+        "traderId": "GoblinKing",
+        "location": "59fc81d786f774390775787e",
+        "image": "/files/quest/icon/gk_1thumbnail.png",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_1 description",
+        "successMessageText": "GK_1 successMessageText",
+        "templateId": "GK_1",
+        "rewards": {
+            "Started": [],
+            "Success": [
+                {
+                    "value": "10000",
+                    "id": "GK_1_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_1_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "value": "3000",
+                    "id": "GK_1_Reward2",
+                    "type": "Item",
+                    "target": "GK_1_ItemReward0",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_1_ItemReward0",
+                            "_tpl": "5696686a4bdc2da3298b456a",
+                            "upd": {
+                                "StackObjectsCount": 3000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "1",
+                    "id": "GK_1_Reward3",
+                    "type": "Item",
+                    "target": "GK_1_ItemReward1",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_1_ItemReward1",
+                            "_tpl": "GoblinsIfak",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "GK_1_Reward4",
+                    "type": "AssortmentUnlock",
+                    "loyaltyLevel": 1,
+                    "index": 4,
+                    "traderId": "GoblinKing",
+                    "target": "GK_1_AssortUnlock0",
+                    "items": [
+                        {
+                            "_id": "GK_1_AssortUnlock0",
+                            "_tpl": "GoblinsBackpack"
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_2": {
+        "QuestName": "When Igor Met Sergei",
+        "_id": "GK_2",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_2 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_2_AFF_1",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5ed5166ad380ab312177c100"],
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_2_AFF_2",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5ed51652f6c34d2cc26336a1"],
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_2_AFF_3",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5ed5160a87bb8443d10680b5"],
+                        "value": "5",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_2_AFF_4",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5ed515c8d380ab312177c0fa"],
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_2_AFF_5",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["544fb3f34bdc2d03748b456a"],
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "conditions": [
+                                {
+                                    "_parent": "VisitPlace",
+                                    "_props": {
+                                        "id": "GK_2_AFF_0",
+                                        "target": "dormSupply",
+                                        "value": "1"
+                                    }
+                                }
+                            ],
+                            "id": "GK_2_AFF_0_0"
+                        },
+                        "doNotResetIfCounterCompleted": false,
+                        "dynamicLocale": false,
+                        "id": "GK_2_AFF_0",
+                        "index": 2,
+                        "oneSessionOnly": false,
+                        "parentId": "",
+                        "type": "Exploration",
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "compareMethod": ">=",
+                        "dynamicLocale": false,
+                        "id": "GK_2_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "value": 9,
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_2_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_2 description",
+        "failMessageText": "GK_2 failMessageText",
+        "image": "/files/quest/icon/gk_2thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "56f40101d2720b2a4d8b45d6",
+        "name": "GK_2 name",
+        "note": "GK_2 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "GK_2_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "12000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "GK_2__Reward_2",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "634acfb4da5c23324e07cbd6",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 170000
+                            }
+                        }
+                    ],
+                    "target": "634acfb4da5c23324e07cbd6",
+                    "type": "Item",
+                    "value": "170000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "GK_2_Reward_3",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "569668774bdc2da2298b4568",
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "upd": {
+                                "StackObjectsCount": 4000
+                            }
+                        }
+                    ],
+                    "target": "569668774bdc2da2298b4568",
+                    "type": "Item",
+                    "value": "4000"
+                },
+                {
+                    "id": "GK_2_Reward_4",
+                    "index": 5,
+                    "target": "GoblinKing",
+                    "type": "TraderStanding",
+                    "value": "0.05"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "GK_2 startedMessageText",
+        "successMessageText": "GK_2 successMessageText",
+        "templateId": "GK_2",
+        "traderId": "GoblinKing",
+        "type": "PickUp"
+    },
+    "GK_3": {
+        "QuestName": "You Want A War? Or Do You Wanna' Just Give Me A Gun?",
+        "_id": "GK_3",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_3 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_3_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "AnyPmc",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "id": "GK_3_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["Interchange"],
+                                        "id": "GK_3_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_3_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "20",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_3_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 15,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_3_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_2",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_3_AFS_2",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "59c124d686f774189b3c843f",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_3 description",
+        "failMessageText": "GK_3 failMessageText",
+        "name": "GK_3 name",
+        "note": "GK_3 note",
+        "traderId": "GoblinKing",
+        "location": "5714dbc024597771384a510d",
+        "image": "/files/quest/icon/gk_3thumbnail.png",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_3 description",
+        "successMessageText": "GK_3 successMessageText",
+        "templateId": "GK_3",
+        "rewards": {
+            "Started": [],
+            "Success": [
+                {
+                    "value": "20000",
+                    "id": "GK_3_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_3_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "value": "10000",
+                    "id": "GK_3_Reward2",
+                    "type": "Item",
+                    "target": "GK_3_ItemReward0",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_3_ItemReward0",
+                            "_tpl": "5696686a4bdc2da3298b456a",
+                            "upd": {
+                                "StackObjectsCount": 10000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "3",
+                    "id": "GK_3_Reward3",
+                    "type": "Item",
+                    "target": "GK_3_ItemReward1",
+                    "index": 3,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_3_ItemReward1",
+                            "_tpl": "ElDiablosBlood",
+                            "upd": {
+                                "StackObjectsCount": 3
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_4": {
+        "QuestName": "All Thrilla, No Killa",
+        "_id": "GK_4",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_4 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_4_AFF_1",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5c0e541586f7747fa54205c9"],
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_4_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "Savage",
+                                        "savageRole": ["bossKilla"],
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "id": "GK_4_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["Interchange"],
+                                        "id": "GK_4_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_4_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_4_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 20,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_4_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_3",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_4 description",
+        "failMessageText": "GK_4 failMessageText",
+        "name": "GK_4 name",
+        "note": "GK_4 note",
+        "traderId": "GoblinKing",
+        "location": "5714dbc024597771384a510d",
+        "image": "/files/quest/icon/gk_4thumbnail.png",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_4 description",
+        "successMessageText": "GK_4 successMessageText",
+        "templateId": "GK_4",
+        "rewards": {
+            "Started": [],
+            "Success": [
+                {
+                    "value": "30000",
+                    "id": "GK_4_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_4_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "value": "10000",
+                    "id": "GK_4_Reward2",
+                    "type": "Item",
+                    "target": "GK_4_ItemReward0",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_4_ItemReward0",
+                            "_tpl": "5696686a4bdc2da3298b456a",
+                            "upd": {
+                                "StackObjectsCount": 10000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "10000",
+                    "id": "GK_4_Reward3",
+                    "type": "Item",
+                    "target": "GK_4_ItemReward1",
+                    "index": 3,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_4_ItemReward1",
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "upd": {
+                                "StackObjectsCount": 10000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "10",
+                    "id": "GK_4_Reward4",
+                    "type": "Item",
+                    "target": "GK_4_ItemReward2",
+                    "index": 4,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_4_ItemReward2",
+                            "_tpl": "5c10c8fd86f7743d7d706df3",
+                            "upd": {
+                                "StackObjectsCount": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "3",
+                    "id": "GK_4_Reward5",
+                    "type": "Item",
+                    "target": "GK_4_ItemReward3",
+                    "index": 5,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_4_ItemReward3",
+                            "_tpl": "lightningstim",
+                            "upd": {
+                                "StackObjectsCount": 3
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_5": {
+        "QuestName": "Let's Play Monopoly",
+        "_id": "GK_5",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_5 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_AFF_1",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5e997f0b86f7741ac73993e2"],
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_AFF_2",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5d02778e86f774203e7dedbe"],
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_5_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "Savage",
+                                        "savageRole": ["bossSanitar"],
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "id": "GK_5_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["Shoreline"],
+                                        "id": "GK_5_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_5_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_5_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 20,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_4",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_AFS_2",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "5edabd13218d181e29451442",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_5 description",
+        "failMessageText": "GK_5 failMessageText",
+        "name": "GK_5 name",
+        "note": "GK_5 note",
+        "traderId": "GoblinKing",
+        "location": "5704e554d2720bac5b8b456e",
+        "image": "/files/quest/icon/gk_5thumbnail.png",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_5 description",
+        "successMessageText": "GK_5 successMessageText",
+        "templateId": "GK_5",
+        "rewards": {
+            "Started": [],
+            "Success": [
+                {
+                    "value": "30000",
+                    "id": "GK_5_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_5_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "value": "10000",
+                    "id": "GK_5_Reward2",
+                    "type": "Item",
+                    "target": "GK_5_ItemReward0",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_5_ItemReward0",
+                            "_tpl": "5696686a4bdc2da3298b456a",
+                            "upd": {
+                                "StackObjectsCount": 10000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "10000",
+                    "id": "GK_5_Reward3",
+                    "type": "Item",
+                    "target": "GK_5_ItemReward1",
+                    "index": 3,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_5_ItemReward1",
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "upd": {
+                                "StackObjectsCount": 10000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "2",
+                    "id": "GK_5_Reward4",
+                    "type": "Item",
+                    "target": "GK_5_ItemReward2",
+                    "index": 4,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_5_ItemReward2",
+                            "_tpl": "590c657e86f77412b013051d",
+                            "upd": {
+                                "StackObjectsCount": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "10",
+                    "id": "GK_5_Reward5",
+                    "type": "Item",
+                    "target": "GK_5_ItemReward3",
+                    "index": 5,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_5_ItemReward3",
+                            "_tpl": "5c10c8fd86f7743d7d706df3",
+                            "upd": {
+                                "StackObjectsCount": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "1",
+                    "id": "GK_5_Reward6",
+                    "type": "Item",
+                    "target": "GK_5_ItemReward4",
+                    "index": 6,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_5_ItemReward4",
+                            "_tpl": "GoblinsMedCase",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_6": {
+        "QuestName": "I'm the Muthafuckin Mailman!",
+        "_id": "GK_6",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_6 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "LeaveItemAtLocation",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_6_AFF_0",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": false,
+                        "parentId": "",
+                        "plantTime": 10,
+                        "target": ["5d02797c86f774203f38e30a"],
+                        "value": "1",
+                        "visibilityConditions": [],
+                        "zoneId": "dormBed_204"
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_6_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "Savage",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "id": "GK_6_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["bigmap"],
+                                        "id": "GK_6_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_6_AFF_1",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "30",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_6_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 25,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "id": "GK_6_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "target": "GK_5",
+                        "status": [4],
+                        "availableAfter": 0,
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_6 description",
+        "failMessageText": "GK_6 failMessageText",
+        "name": "GK_6 name",
+        "note": "GK_6 note",
+        "traderId": "GoblinKing",
+        "location": "56f40101d2720b2a4d8b45d6",
+        "image": "/files/quest/icon/gk_6thumbnail.png",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_6 description",
+        "successMessageText": "GK_6 successMessageText",
+        "templateId": "GK_6",
+        "rewards": {
+            "Started": [],
+            "Success": [
+                {
+                    "value": "30000",
+                    "id": "GK_6_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_6_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "value": "100000",
+                    "id": "GK_6_Reward2",
+                    "type": "Item",
+                    "target": "GK_6_ItemReward0",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_6_ItemReward0",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 100000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "1",
+                    "id": "GK_6_Reward3",
+                    "type": "Item",
+                    "target": "GK_6_ItemReward1",
+                    "index": 3,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_6_ItemReward1",
+                            "_tpl": "NCRHelmet",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "1",
+                    "id": "GK_6_Reward4",
+                    "type": "Item",
+                    "target": "GK_6_ItemReward2",
+                    "index": 3,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_6_ItemReward2",
+                            "_tpl": "58d3db5386f77426186285a0",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_7": {
+        "QuestName": "Humanos Rusos",
+        "_id": "GK_7",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_7 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_7_AFF_0",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": false,
+                        "parentId": "",
+                        "target": ["6184055050224f204c1da540"],
+                        "value": "2",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_7_AFF_1",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": false,
+                        "parentId": "",
+                        "target": ["5cc82d76e24e8d00134b4b83"],
+                        "value": "2",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_7_AFF_2",
+                        "index": 2,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": false,
+                        "parentId": "",
+                        "target": ["5d3eb3b0a4b93615055e84d2"],
+                        "value": "2",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_7_AFF_3",
+                        "index": 3,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": false,
+                        "parentId": "",
+                        "target": ["5449016a4bdc2d6f028b456f"],
+                        "value": "2000000",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "compareMethod": ">=",
+                        "dynamicLocale": false,
+                        "id": "GK_7_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "value": 25,
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "id": "GK_7_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "target": "GK_6",
+                        "status": [4],
+                        "availableAfter": 0,
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_7 description",
+        "failMessageText": "GK_7 failMessageText",
+        "image": "/files/quest/icon/gk_7thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "GK_7 name",
+        "note": "GK_7 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "value": "30000",
+                    "id": "GK_7_Reward5",
+                    "type": "Experience",
+                    "index": 5
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_7_Reward0",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 0
+                },
+                {
+                    "id": "GK_7_Reward1",
+                    "index": 1,
+                    "target": "Attention",
+                    "type": "Skill",
+                    "value": "30"
+                },
+                {
+                    "id": "GK_7_Reward2",
+                    "index": 2,
+                    "target": "WeaponModding",
+                    "type": "Skill",
+                    "value": "50"
+                },
+                {
+                    "id": "GK_7_Reward3",
+                    "index": 3,
+                    "target": "Intellect",
+                    "type": "Skill",
+                    "value": "50"
+                },
+                {
+                    "id": "GK_7_Reward4",
+                    "index": 3,
+                    "items": [
+                      {
+                        "_id": "GK_7_Reward4_1",
+                        "_tpl": "GoblinsBoltHole"
+                      }
+                    ],
+                    "loyaltyLevel": 1,
+                    "target": "GK_7_Reward4_1",
+                    "traderId": "GoblinKing",
+                    "type": "AssortmentUnlock"
+                  }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "GK_7 description",
+        "successMessageText": "GK_7 successMessageText",
+        "templateId": "GK_7",
+        "traderId": "GoblinKing",
+        "type": "PickUp"
+    },
+    "GK_8": {
+        "QuestName": "Un Poco Loco",
+        "_id": "GK_8",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_8 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_8_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "savageRole": ["sectantWarrior"],
+                                        "target": "Savage",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "weapon": ["5d67abc1a4b93614ec50137f", "5d3eb3b0a4b93615055e84d2"],
+                                        "id": "GK_8_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["Shoreline"],
+                                        "id": "GK_8_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_8_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_8_AFF_1_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "savageRole": ["sectantPriest"],
+                                        "target": "Savage",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "weapon": ["5d67abc1a4b93614ec50137f", "5d3eb3b0a4b93615055e84d2"],
+                                        "id": "GK_8_AFF_1_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["Shoreline"],
+                                        "id": "GK_8_AFF_1_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_8_AFF_1",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_8_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 25,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_8_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_7",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_8_AFS_2",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "6089736efa70fc097863b8f6",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_8 description",
+        "failMessageText": "GK_8 failMessageText",
+        "name": "GK_8 name",
+        "note": "GK_8 note",
+        "traderId": "GoblinKing",
+        "location": "5704e554d2720bac5b8b456e",
+        "image": "/files/quest/icon/gk_8thumbnail.png",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_8 description",
+        "successMessageText": "GK_8 successMessageText",
+        "templateId": "GK_8",
+        "rewards": {
+            "Started": [
+                {
+                    "findInRaid": true,
+                    "id": "GK_8_StartingAmmo_0",
+                    "index": 0,
+                    "items": [
+                        {
+                            "_id": "GK_8_StartingAmmo_0_0",
+                            "_tpl": "5cc80f38e4a949001152b560",
+                            "upd": {
+                                "StackObjectsCount": 500
+                            }
+                        }
+                    ],
+                    "target": "GK_8_StartingAmmo_0_0",
+                    "type": "Item",
+                    "value": "200"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "GK_8_FiveseveN_0",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "GK_8_FiveseveN_0_0",
+                            "_tpl": "5d3eb3b0a4b93615055e84d2",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        },
+                        {
+                            "_id": "GK_8_FiveseveN_0_0_0",
+                            "_tpl": "5d3eb59ea4b9361c284bb4b2",
+                            "parentId": "GK_8_FiveseveN_0_0",
+                            "slotId": "mod_barrel"
+                        },
+                        {
+                            "_id": "GK_8_FiveseveN_0_0_1",
+                            "_tpl": "5d3eb536a4b9363b1f22f8e2",
+                            "parentId": "GK_8_FiveseveN_0_0_2",
+                            "slotId": "mod_sight_front"
+                        },
+                        {
+                            "_id": "GK_8_FiveseveN_0_0_2",
+                            "_tpl": "5d3eb44aa4b93650d64e4979",
+                            "parentId": "GK_8_FiveseveN_0_0",
+                            "slotId": "mod_reciever"
+                        },
+                        {
+                            "_id": "GK_8_FiveseveN_0_0_3",
+                            "_tpl": "5d3eb4aba4b93650d64e497d",
+                            "parentId": "GK_8_FiveseveN_0_0_2",
+                            "slotId": "mod_sight_rear"
+                        },
+                        {
+                            "_id": "GK_8_FiveseveN_0_0_4",
+                            "_tpl": "5d3eb5eca4b9363b1f22f8e4",
+                            "parentId": "GK_8_FiveseveN_0_0",
+                            "slotId": "mod_magazine"
+                        }
+                    ],
+                    "target": "GK_8_FiveseveN_0_0",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ],
+            "Success": [
+                {
+                    "value": "40000",
+                    "id": "GK_8_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_8_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "id": "GK_8_Reward2",
+                    "index": 3,
+                    "target": "Pistol",
+                    "type": "Skill",
+                    "value": "20"
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_9": {
+        "QuestName": "Es Spiritus Sancti",
+        "_id": "GK_9",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_9 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_9_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "savageRole": ["sectantWarrior"],
+                                        "target": "Savage",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "weapon": ["5cc82d76e24e8d00134b4b83"],
+                                        "id": "GK_9_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["Woods"],
+                                        "id": "GK_9_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_9_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "12",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_9_AFF_1_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "savageRole": ["sectantPriest"],
+                                        "target": "Savage",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "weapon": ["5cc82d76e24e8d00134b4b83"],
+                                        "id": "GK_9_AFF_1_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["Woods"],
+                                        "id": "GK_9_AFF_1_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_9_AFF_1",
+                        "index": 1,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "3",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_9_AFF_2",
+                        "index": 2,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5fc64ea372b0dd78d51159dc"],
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_9_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 25,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_9_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_8",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_9 description",
+        "failMessageText": "GK_9 failMessageText",
+        "name": "GK_9 name",
+        "note": "GK_9 note",
+        "traderId": "GoblinKing",
+        "location": "5704e3c2d2720bac5b8b4567",
+        "image": "/files/quest/icon/gk_9thumbnail.png",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_9 description",
+        "successMessageText": "GK_9 successMessageText",
+        "templateId": "GK_9",
+        "rewards": {
+            "Started": [
+                {
+                    "findInRaid": true,
+                    "id": "GK_9_StartingAmmo_0",
+                    "index": 0,
+                    "items": [
+                        {
+                            "_id": "GK_9_StartingAmmo_0_0",
+                            "_tpl": "5cc80f38e4a949001152b560",
+                            "upd": {
+                                "StackObjectsCount": 500
+                            }
+                        }
+                    ],
+                    "target": "GK_9_StartingAmmo_0_0",
+                    "type": "Item",
+                    "value": "500"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "GK_9_p90_0",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "GK_9_p90_0_0",
+                            "_tpl": "5cc82d76e24e8d00134b4b83",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_0",
+                            "_tpl": "5cc70093e4a949033c734312",
+                            "parentId": "GK_9_p90_0_0",
+                            "slotId": "mod_magazine"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_1",
+                            "_tpl": "5cebec10d7f00c065703d185",
+                            "parentId": "GK_9_p90_0_0",
+                            "slotId": "mod_stock"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_2",
+                            "_tpl": "5cc700cae4a949035e43ba72",
+                            "parentId": "GK_9_p90_0_0_1",
+                            "slotId": "mod_stock_000"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_3",
+                            "_tpl": "5cc70102e4a949035e43ba74",
+                            "parentId": "GK_9_p90_0_0",
+                            "slotId": "mod_reciever"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_4",
+                            "_tpl": "5cc7015ae4a949001152b4c6",
+                            "parentId": "GK_9_p90_0_0_3",
+                            "slotId": "mod_mount_000"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_5",
+                            "_tpl": "584924ec24597768f12ae244",
+                            "parentId": "GK_9_p90_0_0_4",
+                            "slotId": "mod_scope"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_6",
+                            "_tpl": "5cc70146e4a949000d73bf6b",
+                            "parentId": "GK_9_p90_0_0_3",
+                            "slotId": "mod_mount_001"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_7",
+                            "_tpl": "5cc70146e4a949000d73bf6b",
+                            "parentId": "GK_9_p90_0_0_3",
+                            "slotId": "mod_mount_002"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_8",
+                            "_tpl": "5cc701aae4a949000e1ea45c",
+                            "parentId": "GK_9_p90_0_0",
+                            "slotId": "mod_barrel"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_9",
+                            "_tpl": "5cc82796e24e8d000f5859a8",
+                            "parentId": "GK_9_p90_0_0_8",
+                            "slotId": "mod_muzzle"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_10",
+                            "_tpl": "5cebec00d7f00c065c53522a",
+                            "parentId": "GK_9_p90_0_0_9",
+                            "slotId": "mod_muzzle"
+                        },
+                        {
+                            "_id": "GK_9_p90_0_0_11",
+                            "_tpl": "5cc6ea78e4a949000e1ea3c1",
+                            "parentId": "GK_9_p90_0_0",
+                            "slotId": "mod_charge"
+                        }
+                    ],
+                    "target": "GK_9_p90_0_0",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ],
+            "Success": [
+                {
+                    "value": "40000",
+                    "id": "GK_9_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_9_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "id": "GK_9_Reward2",
+                    "index": 2,
+                    "target": "SMG",
+                    "type": "Skill",
+                    "value": "30"
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_10": {
+        "QuestName": "No Hardcore Dancing in the Lab!",
+        "_id": "GK_10",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_10 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_10_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "savageRole": ["pmcBot"],
+                                        "target": "Savage",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "weapon": ["618428466ef05c2ce828f218", "6184055050224f204c1da540"],
+                                        "id": "GK_9_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["laboratory"],
+                                        "id": "GK_10_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_10_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "20",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "FindItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_10_AFF_1",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5c12613b86f7743bbe2c3f76"],
+                        "value": "5",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_10_AFF_2",
+                        "index": 2,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5c12613b86f7743bbe2c3f76"],
+                        "value": "5",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_10_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 25,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_10_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_9",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_10 description",
+        "failMessageText": "GK_10 failMessageText",
+        "name": "GK_10 name",
+        "note": "GK_10 note",
+        "traderId": "GoblinKing",
+        "location": "5b0fc42d86f7744a585f9105",
+        "image": "/files/quest/icon/gk_10thumbnail.png",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_10 description",
+        "successMessageText": "GK_10 successMessageText",
+        "templateId": "GK_8",
+        "rewards": {
+            "Started": [
+                {
+                    "findInRaid": true,
+                    "id": "GK_10_StartingAmmo_0",
+                    "index": 0,
+                    "items": [
+                        {
+                            "_id": "GK_10_StartingAmmo_0_0",
+                            "_tpl": "54527a984bdc2d4e668b4567",
+                            "upd": {
+                                "StackObjectsCount": 500
+                            }
+                        }
+                    ],
+                    "target": "GK_10_StartingAmmo_0_0",
+                    "type": "Item",
+                    "value": "500"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "GK_10_SCAR",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "GK_10_SCAR_0",
+                            "_tpl": "618428466ef05c2ce828f218",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_0",
+                            "_tpl": "55802f5d4bdc2dac148b458f",
+                            "parentId": "GK_10_SCAR_0",
+                            "slotId": "mod_pistol_grip"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_1",
+                            "_tpl": "5aaa5dfee5b5b000140293d3",
+                            "parentId": "GK_10_SCAR_0",
+                            "slotId": "mod_magazine"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_2",
+                            "_tpl": "618405198004cc50514c3594",
+                            "parentId": "GK_10_SCAR_0",
+                            "slotId": "mod_reciever"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_3",
+                            "_tpl": "544a3a774bdc2d3a388b4567",
+                            "parentId": "GK_10_SCAR_0_2",
+                            "slotId": "mod_scope"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_4",
+                            "_tpl": "58d268fc86f774111273f8c2",
+                            "parentId": "GK_10_SCAR_0_3",
+                            "slotId": "mod_scope"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_5",
+                            "_tpl": "6183fd911cb55961fa0fdce9",
+                            "parentId": "GK_10_SCAR_0_2",
+                            "slotId": "mod_barrel"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_6",
+                            "_tpl": "56ea6fafd2720b844b8b4593",
+                            "parentId": "GK_10_SCAR_0_5",
+                            "slotId": "mod_muzzle"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_7",
+                            "_tpl": "61816fcad92c473c770215cc",
+                            "parentId": "GK_10_SCAR_0_5",
+                            "slotId": "mod_sight_front"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_8",
+                            "_tpl": "61817865d3a39d50044c13a4",
+                            "parentId": "GK_10_SCAR_0_2",
+                            "slotId": "mod_sight_rear"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_9",
+                            "_tpl": "61816df1d3a39d50044c139e",
+                            "parentId": "GK_10_SCAR_0_2",
+                            "slotId": "mod_mount_000"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_10",
+                            "_tpl": "5c1bc5612e221602b5429350",
+                            "parentId": "GK_10_SCAR_0_9",
+                            "slotId": "mod_foregrip"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_11",
+                            "_tpl": "61965d9058ef8c428c287e0d",
+                            "parentId": "GK_10_SCAR_0_9",
+                            "slotId": "mod_mount"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_12",
+                            "_tpl": "61816dfa6ef05c2ce828f1ad",
+                            "parentId": "GK_10_SCAR_0_2",
+                            "slotId": "mod_mount_001"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_13",
+                            "_tpl": "61825d06d92c473c770215de",
+                            "parentId": "GK_10_SCAR_0",
+                            "slotId": "mod_stock"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_14",
+                            "_tpl": "61825d136ef05c2ce828f1cc",
+                            "parentId": "GK_10_SCAR_0_13",
+                            "slotId": "mod_stock_001"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_15",
+                            "_tpl": "618167616ef05c2ce828f1a8",
+                            "parentId": "GK_10_SCAR_0_14",
+                            "slotId": "mod_stock"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_16",
+                            "_tpl": "618167441cb55961fa0fdc71",
+                            "parentId": "GK_10_SCAR_0_13",
+                            "slotId": "mod_stock_002"
+                        },
+                        {
+                            "_id": "GK_10_SCAR_0_17",
+                            "_tpl": "6181688c6c780c1e710c9b04",
+                            "parentId": "GK_10_SCAR_0",
+                            "slotId": "mod_charge"
+                        }
+                    ],
+                    "target": "GK_10_SCAR_0",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ],
+            "Success": [
+                {
+                    "value": "40000",
+                    "id": "GK_10_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_10_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "id": "GK_10_Reward2",
+                    "index": 2,
+                    "target": "Assault",
+                    "type": "Skill",
+                    "value": "30"
+                },
+                {
+                    "id": "GK_10_Reward3",
+                    "index": 3,
+                    "target": "MagDrills",
+                    "type": "Skill",
+                    "value": "30"
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_11": {
+        "QuestName": "Laying Pipe and Flippin' the Bird",
+        "_id": "GK_11",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_11 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_11_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "Savage",
+                                        "savageRole": ["followerBigPipe"],
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "id": "GK_11_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["bigmap"],
+                                        "id": "GK_11_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_11_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_11_AFF_1",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["628e4dd1f477aa12234918aa"],
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_11_AFF_2_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "Savage",
+                                        "savageRole": ["exUsec"],
+                                        "id": "GK_11_AFF_2_1",
+                                        "dynamicLocale": false
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["Lighthouse"],
+                                        "id": "GK_11_AFF_2_2",
+                                        "dynamicLocale": false
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_11_AFF_2",
+                        "index": 2,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_11_AFF_3_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "Savage",
+                                        "savageRole": ["followerBirdEye"],
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "id": "GK_11_AFF_3_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["bigmap"],
+                                        "id": "GK_11_AFF_3_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_11_AFF_3",
+                        "index": 3,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_11_AFF_4",
+                        "index": 4,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["628baf0b967de16aab5a4f36"],
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_11_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 25,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_11_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_11 description",
+        "failMessageText": "GK_11 failMessageText",
+        "name": "GK_11 name",
+        "note": "GK_11 note",
+        "traderId": "GoblinKing",
+        "image": "/files/quest/icon/gk_11thumbnail.png",
+        "location": "any",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_11 description",
+        "successMessageText": "GK_11 successMessageText",
+        "templateId": "GK_11",
+        "rewards": {
+            "Started": [],
+            "Success": [
+                {
+                    "value": "60000",
+                    "id": "GK_11_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_11_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "value": "10000",
+                    "id": "GK_11_Reward2",
+                    "type": "Item",
+                    "target": "GK_11_ItemReward0",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_11_ItemReward0",
+                            "_tpl": "5696686a4bdc2da3298b456a",
+                            "upd": {
+                                "StackObjectsCount": 10000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "10000",
+                    "id": "GK_11_Reward3",
+                    "type": "Item",
+                    "target": "GK_11_ItemReward1",
+                    "index": 3,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_11_ItemReward1",
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "upd": {
+                                "StackObjectsCount": 10000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "GK_11_Reward4",
+                    "index": 4,
+                    "target": "Perception",
+                    "type": "Skill",
+                    "value": "30"
+                },
+                {
+                    "id": "GK_11_Reward5",
+                    "index": 5,
+                    "target": "Vitality",
+                    "type": "Skill",
+                    "value": "30"
+                },
+                {
+                    "id": "GK_11_Reward6",
+                    "index": 6,
+                    "target": "Endurance",
+                    "type": "Skill",
+                    "value": "50"
+                },
+                {
+                    "value": "1",
+                    "id": "GK_11_Reward7",
+                    "type": "Item",
+                    "target": "GK_11_ItemReward2",
+                    "index": 7,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_11_ItemReward2",
+                            "_tpl": "GoblinKingsTrophy002",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "GK_11_Reward8",
+                    "type": "AssortmentUnlock",
+                    "index": 4,
+                    "traderId": "GoblinKing",
+                    "target": "GK_11_AssortUnlock2",
+                    "loyaltyLevel": 3,
+                    "items": [
+                        {
+                            "_id": "GK_11_AssortUnlock2",
+                            "_tpl": "GoblinKingsTrophy002",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_12": {
+        "QuestName": "Norvinsk Project",
+        "_id": "GK_12",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_12 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_12_AFF_0",
+                        "index": 3,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": false,
+                        "parentId": "",
+                        "target": [
+                            "5e32f56fcb6d5863cc5e5ee4",
+                            "5e340dcdcb6d5863cc5e5efb",
+                            "5710c24ad2720bc3458b45a3",
+                            "617aa4dd8166f034d57de9c5",
+                            "58d3db5386f77426186285a0",
+                            "619256e5f8af2c1a4e1f5d92",
+                            "5a2a57cfc4a2826c6e06d44a",
+                            "617fd91e5539a84ec44ce155",
+                            "618a431df1eb8e24b8741deb",
+                            "5a0c27731526d80618476ac4",
+                            "5448be9a4bdc2dfd2f8b456a"
+                        ],
+                        "value": "100",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "compareMethod": ">=",
+                        "dynamicLocale": false,
+                        "id": "GK_12_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "value": 25,
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_12_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_11",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_12 description",
+        "failMessageText": "GK_12 failMessageText",
+        "image": "/files/quest/icon/gk_12thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "GK_12 name",
+        "note": "GK_12 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "value": "60000",
+                    "id": "GK_12_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "id": "GK_12_Reward1",
+                    "index": 1,
+                    "type": "TraderStanding",
+                    "value": "0.05",
+                    "target": "GoblinKing"
+                },
+                {
+                    "id": "GK_12_Reward2",
+                    "index": 2,
+                    "target": "Throwables",
+                    "type": "Skill",
+                    "value": "30"
+                },
+                {
+                    "id": "GK_12_Reward3",
+                    "index": 3,
+                    "target": "WeaponModding",
+                    "type": "Skill",
+                    "value": "50"
+                },
+                {
+                    "id": "GK_12_Reward4",
+                    "index": 4,
+                    "target": "HideoutManagement",
+                    "type": "Skill",
+                    "value": "105"
+                },
+                {
+                    "id": "GK_12_Reward5",
+                    "type": "AssortmentUnlock",
+                    "loyaltyLevel": 3,
+                    "index": 4,
+                    "traderId": "GoblinKing",
+                    "target": "GK_12_AssortUnlock0",
+                    "items": [
+                        {
+                            "_id": "GK_12_AssortUnlock0",
+                            "_tpl": "Coyote"
+                        }
+                    ]
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "GK_12 description",
+        "successMessageText": "GK_12 successMessageText",
+        "templateId": "GK_12",
+        "traderId": "GoblinKing",
+        "type": "PickUp"
+    },
+    "GK_13": {
+        "QuestName": "One, nothing wrong with me. Two, nothing wrong with me. Three, nothing wrong with me. Four, NOTHING WRONG WITH ME!",
+        "_id": "GK_13",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_13 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_13_AFF_4",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["59f32bb586f774757e1e8442", "59f32c3b86f77472a31742f0"],
+                        "value": "50",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_13_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "AnyPmc",
+                                        "weapon": [
+                                            "5710c24ad2720bc3458b45a3",
+                                            "58d3db5386f77426186285a0",
+                                            "5448be9a4bdc2dfd2f8b456a",
+                                            "617fd91e5539a84ec44ce155",
+                                            "618a431df1eb8e24b8741deb",
+                                            "5e32f56fcb6d5863cc5e5ee4",
+                                            "5e340dcdcb6d5863cc5e5efb"
+                                        ],
+                                        "id": "GK_13_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["RezervBase"],
+                                        "id": "GK_13_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_13_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_13_AFF_1_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "AnyPmc",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "weapon": ["5e81ebcd8e146c7080625e15", "6275303a9f372d6ea97f9ec7"],
+                                        "id": "GK_13_AFF_1_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["RezervBase"],
+                                        "id": "GK_13_AFF_1_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_13_AFF_1",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_13_AFF_2_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "savageRole": ["pmcBot"],
+                                        "target": "Savage",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "weapon": [
+                                            "5e81ebcd8e146c7080625e15",
+                                            "6275303a9f372d6ea97f9ec7",
+                                            "5710c24ad2720bc3458b45a3",
+                                            "58d3db5386f77426186285a0",
+                                            "5448be9a4bdc2dfd2f8b456a",
+                                            "617fd91e5539a84ec44ce155",
+                                            "618a431df1eb8e24b8741deb",
+                                            "5e32f56fcb6d5863cc5e5ee4",
+                                            "5e340dcdcb6d5863cc5e5efb"
+                                        ],
+                                        "id": "GK_13_AFF_2_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["RezervBase"],
+                                        "id": "GK_13_AFF_2_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_13_AFF_2",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_13_AFF_3_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "savageRole": ["exUsec"],
+                                        "target": "Savage",
+                                        "weapon": [
+                                            "5e81ebcd8e146c7080625e15",
+                                            "6275303a9f372d6ea97f9ec7",
+                                            "5710c24ad2720bc3458b45a3",
+                                            "58d3db5386f77426186285a0",
+                                            "5448be9a4bdc2dfd2f8b456a",
+                                            "617fd91e5539a84ec44ce155",
+                                            "618a431df1eb8e24b8741deb",
+                                            "5e32f56fcb6d5863cc5e5ee4",
+                                            "5e340dcdcb6d5863cc5e5efb"
+                                        ],
+                                        "id": "GK_13_AFF_3_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["Lighthouse"],
+                                        "id": "GK_13_AFF_3_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_13_AFF_3",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_13_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 25,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "id": "GK_13_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "target": "GK_12",
+                        "status": [4],
+                        "availableAfter": 0,
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_13 description",
+        "failMessageText": "GK_13 failMessageText",
+        "name": "GK_13 name",
+        "note": "GK_13 note",
+        "traderId": "GoblinKing",
+        "location": "any",
+        "image": "/files/quest/icon/gk_13thumbnail.png",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_13 description",
+        "successMessageText": "GK_13 successMessageText",
+        "templateId": "GK_13",
+        "rewards": {
+            "Started": [],
+            "Success": [
+                {
+                    "value": "60000",
+                    "id": "GK_13_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_13_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "id": "GK_13_Reward2",
+                    "index": 2,
+                    "target": "Throwables",
+                    "type": "Skill",
+                    "value": "100"
+                },
+                {
+                    "id": "GK_13_Reward3",
+                    "index": 3,
+                    "target": "StressResistance",
+                    "type": "Skill",
+                    "value": "150"
+                },
+                {
+                    "id": "GK_13_Reward4",
+                    "index": 4,
+                    "target": "Vitality",
+                    "type": "Skill",
+                    "value": "50"
+                },
+                {
+                    "value": "100000",
+                    "id": "GK_13_Reward5",
+                    "type": "Item",
+                    "target": "GK_13_ItemReward0",
+                    "index": 5,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_13_ItemReward0",
+                            "_tpl": "5696686a4bdc2da3298b456a",
+                            "upd": {
+                                "StackObjectsCount": 10000
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_14": {
+        "QuestName": "Too Legit",
+        "_id": "GK_14",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_14 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_14_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "savageRole": ["bossGluhar"],
+                                        "target": "Savage",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "weapon": ["6087e570b998180e9f76dc24"],
+                                        "id": "GK_14_AFF_0_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["RezervBase"],
+                                        "id": "GK_14_AFF_0_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_14_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_14_AFF_1_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "savageRole": ["followerGluharAssault", "followerGluharScout", "followerGluharSecurity", "followerGluharSnipe"],
+                                        "target": "Savage",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "weapon": ["6087e570b998180e9f76dc24"],
+                                        "id": "GK_14_AFF_1_1"
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["RezervBase"],
+                                        "id": "GK_14_AFF_1_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_14_AFF_1",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "6",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_14_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 25,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_14_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_13",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_14 description",
+        "failMessageText": "GK_14 failMessageText",
+        "name": "GK_14 name",
+        "note": "GK_14 note",
+        "traderId": "GoblinKing",
+        "location": "5704e5fad2720bc05b8b4567",
+        "image": "/files/quest/icon/gk_14thumbnail.png",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_14 description",
+        "successMessageText": "GK_14 successMessageText",
+        "templateId": "GK_14",
+        "rewards": {
+            "Started": [
+                {
+                    "findInRaid": true,
+                    "id": "GK_14_StartingItem_0",
+                    "index": 0,
+                    "items": [
+                        {
+                            "_id": "GK_14_StartingItem_0_0",
+                            "_tpl": "6087e570b998180e9f76dc24",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "GK_14_StartingItem_0_0",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ],
+            "Success": [
+                {
+                    "value": "100000",
+                    "id": "GK_14_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_14_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "id": "GK_14_Reward2",
+                    "index": 3,
+                    "target": "CovertMovement",
+                    "type": "Skill",
+                    "value": "100"
+                },
+                {
+                    "value": "100000",
+                    "id": "GK_14_Reward3",
+                    "type": "Item",
+                    "target": "GK_14_ItemReward0",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_14_ItemReward0",
+                            "_tpl": "5696686a4bdc2da3298b456a",
+                            "upd": {
+                                "StackObjectsCount": 15000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "2",
+                    "id": "GK_14_Reward4",
+                    "type": "Item",
+                    "target": "GK_14_ItemReward1",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_14_ItemReward1",
+                            "_tpl": "590c657e86f77412b013051d",
+                            "upd": {
+                                "StackObjectsCount": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "GK_14_Reward5",
+                    "type": "AssortmentUnlock",
+                    "loyaltyLevel": 3,
+                    "index": 4,
+                    "traderId": "GoblinKing",
+                    "target": "GK_14_AssortUnlock0",
+                    "items": [
+                        {
+                            "_id": "GK_14_AssortUnlock0",
+                            "_tpl": "GoblinSec"
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    },
+    "GK_15": {
+        "QuestName": "A Knight's Tale",
+        "_id": "GK_15",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_15 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_15_AFF_0_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "savageRole": ["bossKnight"],
+                                        "target": "Savage",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "weapon": ["6087e570b998180e9f76dc24"],
+                                        "id": "GK_15_AFF_0_1"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_15_AFF_0",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_15_AFF_1",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["62963c18dbc8ab5f0d382d0b"],
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "id": "GK_15_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "dynamicLocale": false,
+                        "value": 25,
+                        "compareMethod": ">=",
+                        "visibilityConditions": []
+                    }
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_15_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_14",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_15 description",
+        "failMessageText": "GK_15 failMessageText",
+        "name": "GK_15 name",
+        "note": "GK_15 note",
+        "traderId": "GoblinKing",
+        "location": "56f40101d2720b2a4d8b45d6",
+        "image": "/files/quest/icon/gk_15thumbnail.png",
+        "type": "Elimination",
+        "isKey": false,
+        "restartable": false,
+        "instantComplete": false,
+        "secretQuest": false,
+        "startedMessageText": "GK_15 description",
+        "successMessageText": "GK_15 successMessageText",
+        "templateId": "GK_15",
+        "rewards": {
+            "Started": [],
+            "Success": [
+                {
+                    "value": "125000",
+                    "id": "GK_15_Reward0",
+                    "type": "Experience",
+                    "index": 0
+                },
+                {
+                    "value": "0.05",
+                    "id": "GK_15_Reward1",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                },
+                {
+                    "id": "GK_15_Reward2",
+                    "index": 3,
+                    "target": "Charisma",
+                    "type": "Skill",
+                    "value": "100"
+                },
+                {
+                    "id": "GK_15_Reward3",
+                    "index": 3,
+                    "target": "Barter",
+                    "type": "Skill",
+                    "value": "100"
+                },
+                {
+                    "value": "100000",
+                    "id": "GK_15_Reward4",
+                    "type": "Item",
+                    "target": "GK_15_ItemReward0",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_15_ItemReward0",
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "upd": {
+                                "StackObjectsCount": 13000
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "10",
+                    "id": "GK_15_Reward5",
+                    "type": "Item",
+                    "target": "GK_15_ItemReward1",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_15_ItemReward1",
+                            "_tpl": "5c0e530286f7747fa1419862",
+                            "upd": {
+                                "StackObjectsCount": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "1",
+                    "id": "GK_15_Reward6",
+                    "type": "Item",
+                    "target": "GK_15_ItemReward2",
+                    "index": 2,
+                    "findInRaid": true,
+                    "items": [
+                        {
+                            "_id": "GK_15_ItemReward2",
+                            "_tpl": "GoblinKingsTrophy001",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "GK_15_Reward7",
+                    "type": "AssortmentUnlock",
+                    "index": 4,
+                    "traderId": "GoblinKing",
+                    "target": "GK_15_AssortUnlock3",
+                    "loyaltyLevel": 3,
+                    "items": [
+                        {
+                            "_id": "GK_15_AssortUnlock3",
+                            "_tpl": "GoblinKingsTrophy001",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Fail": []
+        },
+        "side": "Pmc"
+    }
+}

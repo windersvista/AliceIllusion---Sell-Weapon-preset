@@ -1,0 +1,24 @@
+{
+    "started": {},
+    "success": {
+        "GoblinsBackpack": "GK_1",
+        "GoblinsBoltHole": "GK_7",
+        "GoblinKingsTrophy002": "GK_11",
+        "GoblinKingsTrophy001": "GK_15",
+        "556Sludge": "GK_16",
+        "556SludgeBox": "GK_16",
+        "CursedMask": "GK_20",
+        "5c94bbff86f7747ee735c08f": "GK_22",
+        "GoblinsKACSR25": "GK_23",
+        "c00lsh4d35": "GK_24",
+        "CastleTux": "GK_25",
+        "MickysTac": "GK_2_5",
+        "BSGTheft": "GK_5_5",
+        "Prisonwallet": "GK_9_5",
+        "Coyote": "GK_12",
+        "GoblinSec": "GK_14",
+        "DHS": "GK_18_5",
+        "GCCerberus": "GK_26"
+    },
+    "fail": {}
+}

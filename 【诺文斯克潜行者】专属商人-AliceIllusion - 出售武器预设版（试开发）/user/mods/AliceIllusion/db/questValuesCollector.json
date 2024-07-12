@@ -1,0 +1,22 @@
+{
+    "GK_1": { "level": 50, "experience": 100000 },
+    "GK_2": { "level": 50, "experience": 120000 },
+    "GK_3": { "level": 50, "experience": 200000 },
+    "GK_4": { "level": 50, "experience": 300000 },
+    "GK_5": { "level": 50, "experience": 300000 },
+    "GK_6": { "level": 52, "experience": 300000 },
+    "GK_7": { "level": 53, "experience": 300000 },
+    "GK_8": { "level": 53, "experience": 400000 },
+    "GK_9": { "level": 53, "experience": 400000 },
+    "GK_10": { "level": 55, "experience": 400000 },
+    "GK_11": { "level": 55, "experience": 600000 },
+    "GK_12": { "level": 55, "experience": 600000 },
+    "GK_13": { "level": 55, "experience": 600000 },
+    "GK_14": { "level": 55, "experience": 1000000 },
+    "GK_15": { "level": 55, "experience": 1250000 },
+    "GK_16": { "level": 56, "experience": 500000 },
+    "GK_17": { "level": 56, "experience": 520000 },
+    "GK_18": { "level": 57, "experience": 530000 },
+    "GK_19": { "level": 57, "experience": 500000 },
+    "GK_20": { "level": 57, "experience": 600000 }
+}

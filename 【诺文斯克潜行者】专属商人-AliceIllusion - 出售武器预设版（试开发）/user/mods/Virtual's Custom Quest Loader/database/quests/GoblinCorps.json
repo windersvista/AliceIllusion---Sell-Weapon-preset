@@ -1,0 +1,859 @@
+{
+    "GK_2_5": {
+        "QuestName": "It's Me Belt, Turkish",
+        "_id": "GK_2_5",
+        "acceptPlayerMessage": "GK_2_5 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_2_5 changeQuestMessageText",
+        "completePlayerMessage": "GK_2_5 completePlayerMessage",
+        "conditions": {
+          "AvailableForFinish": [
+            {
+              "_parent": "CounterCreator",
+              "_props": {
+                "counter": {
+                  "conditions": [
+                    {
+                      "_parent": "Kills",
+                      "_props": {
+                        "id": "GK_2_5_AFF_0_0",
+                        "savageRole": [
+                          "arenaFighterEvent"
+                        ],
+                        "weapon": ["61a4c8884f95bc3b2c5dc96f", "624c2e8614da335f1e034d8c"],
+                        "target": "Savage"
+                      }
+                    }
+                  ],
+                  "id": "GK_2_5_AFF_0"
+                },
+                "doNotResetIfCounterCompleted": false,
+                "dynamicLocale": false,
+                "id": "GK_2_5_AFF_0",
+                "index": 0,
+                "oneSessionOnly": false,
+                "parentId": "",
+                "type": "Elimination",
+                "value": "10",
+                "visibilityConditions": []
+              },
+              "dynamicLocale": false
+            }
+          ],
+            
+          "AvailableForStart": [
+            {
+                "_parent": "Quest",
+                "_props": {
+                    "availableAfter": 0,
+                    "dynamicLocale": false,
+                    "id": "GK_2_5_AFS_1",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [4],
+                    "target": "GK_2",
+                    "visibilityConditions": []
+                },
+                "dynamicLocale": false
+            }
+          ],
+          "Fail": []
+        },
+        "description": "GK_2_5 description",
+        "failMessageText": "GK_2_5 failMessageText",
+        "image": "/files/quest/icon/gk2.5thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "GK_2_5 name",
+        "note": "GK_2_5 note",
+        "questStatus": {},
+        "restartable": false,
+        "rewards": {
+          "Fail": [],
+          "Started": [
+          ],
+          "Success": [
+            {
+              "id": "GK_2_5_Reward1",
+              "index": 2,
+              "target": "GoblinKing",
+              "type": "TraderStanding",
+              "value": "0.10"
+            },
+            {
+              "id": "GK_2_5_Reward2",
+              "index": 3,
+              "items": [
+                {
+                  "_id": "GK_2_5_AssortReward1",
+                  "_tpl": "MickysTac"
+                }
+              ],
+              "loyaltyLevel": 1,
+              "target": "GK_2_5_AssortReward1",
+              "traderId": "GoblinKing",
+              "type": "AssortmentUnlock"
+            }
+          ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "GK_2_5 startedMessageText",
+        "successMessageText": "GK_2_5 successMessageText",
+        "templateId": "GK_2_5",
+        "traderId": "GoblinKing",
+        "type": "Elimination"
+      },
+    "GK_5_5": {
+        "QuestName": "Master Race",
+        "_id": "GK_5_5",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_5_5 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "FindItem",
+                    "_props": {
+                      "countInRaid": false,
+                      "dogtagLevel": 0,
+                      "dynamicLocale": false,
+                      "id": "GK_5_5_AFF_0",
+                      "index": 0,
+                      "isEncoded": false,
+                      "maxDurability": 100,
+                      "minDurability": 0,
+                      "onlyFoundInRaid": true,
+                      "parentId": "",
+                      "target": [
+                        "5734779624597737e04bf329"
+                      ],
+                      "value": "5",
+                      "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_5_AFF_1",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5734779624597737e04bf329"],
+                        "value": "5",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "FindItem",
+                    "_props": {
+                      "countInRaid": false,
+                      "dogtagLevel": 0,
+                      "dynamicLocale": false,
+                      "id": "GK_5_5_AFF_2",
+                      "index": 0,
+                      "isEncoded": false,
+                      "maxDurability": 100,
+                      "minDurability": 0,
+                      "onlyFoundInRaid":  true,
+                      "parentId": "",
+                      "target": [
+                        "5734781f24597737e04bf32a"
+                      ],
+                      "value": "5",
+                      "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_5_AFF_3",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5734781f24597737e04bf32a"],
+                        "value": "5",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "FindItem",
+                    "_props": {
+                      "countInRaid": false,
+                      "dogtagLevel": 0,
+                      "dynamicLocale": false,
+                      "id": "GK_5_5_AFF_4",
+                      "index": 0,
+                      "isEncoded": false,
+                      "maxDurability": 100,
+                      "minDurability": 0,
+                      "onlyFoundInRaid":  true,
+                      "parentId": "",
+                      "target": [
+                        "573477e124597737dd42e191"
+                      ],
+                      "value": "5",
+                      "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_5_AFF_5",
+                        "index": 1,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["573477e124597737dd42e191"],
+                        "value": "5",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "FindItem",
+                    "_props": {
+                      "countInRaid": false,
+                      "dogtagLevel": 0,
+                      "dynamicLocale": false,
+                      "id": "GK_5_5_AFF_6",
+                      "index": 0,
+                      "isEncoded": false,
+                      "maxDurability": 100,
+                      "minDurability": 0,
+                      "onlyFoundInRaid":  true,
+                      "parentId": "",
+                      "target": [
+                        "57347ca924597744596b4e71"
+                      ],
+                      "value": "5",
+                      "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_5_AFF_7",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["57347ca924597744596b4e71"],
+                        "value": "5",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "FindItem",
+                    "_props": {
+                      "countInRaid": false,
+                      "dogtagLevel": 0,
+                      "dynamicLocale": false,
+                      "id": "GK_5_5_AFF_8",
+                      "index": 0,
+                      "isEncoded": false,
+                      "maxDurability": 100,
+                      "minDurability": 0,
+                      "onlyFoundInRaid":  true,
+                      "parentId": "",
+                      "target": [
+                        "57347c2e24597744902c94a1"
+                      ],
+                      "value": "5",
+                      "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_5_AFF_9",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["57347c2e24597744902c94a1"],
+                        "value": "5",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "FindItem",
+                    "_props": {
+                      "countInRaid": false,
+                      "dogtagLevel": 0,
+                      "dynamicLocale": false,
+                      "id": "GK_5_5_AFF_10",
+                      "index": 0,
+                      "isEncoded": false,
+                      "maxDurability": 100,
+                      "minDurability": 0,
+                      "onlyFoundInRaid":  true,
+                      "parentId": "",
+                      "target": [
+                        "5d0376a486f7747d8050965c"
+                      ],
+                      "value": "5",
+                      "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_5_AFF_11",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["5d0376a486f7747d8050965c"],
+                        "value": "5",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "FindItem",
+                    "_props": {
+                      "countInRaid": false,
+                      "dogtagLevel": 0,
+                      "dynamicLocale": false,
+                      "id": "GK_5_5_AFF_12",
+                      "index": 0,
+                      "isEncoded": false,
+                      "maxDurability": 100,
+                      "minDurability": 0,
+                      "onlyFoundInRaid":  true,
+                      "parentId": "",
+                      "target": [
+                        "57347baf24597738002c6178"
+                      ],
+                      "value": "20",
+                      "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_5_AFF_13",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["57347baf24597738002c6178"],
+                        "value": "20",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "FindItem",
+                    "_props": {
+                      "countInRaid": false,
+                      "dogtagLevel": 0,
+                      "dynamicLocale": false,
+                      "id": "GK_5_5_AFF_14",
+                      "index": 0,
+                      "isEncoded": false,
+                      "maxDurability": 100,
+                      "minDurability": 0,
+                      "onlyFoundInRaid":  true,
+                      "parentId": "",
+                      "target": [
+                        "590c392f86f77444754deb29"
+                      ],
+                      "value": "10",
+                      "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "HandoverItem",
+                    "_props": {
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_5_5_AFF_15",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 0,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": ["590c392f86f77444754deb29"],
+                        "value": "10",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+
+            ],
+            "AvailableForStart": [
+
+               {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_2_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_5",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_5_5 description",
+        "failMessageText": "GK_5_5 failMessageText",
+        "image": "/files/quest/icon/gk5.5thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "56f40101d2720b2a4d8b45d6",
+        "name": "GK_5_5 name",
+        "note": "GK_5_5 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "GK_5_5_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "12500"
+                },
+                {
+                    "id": "GK_5_5_Reward2",
+                    "index": 1,
+                    "items": [
+                      {
+                        "_id": "GK_5_5_AssortReward1",
+                        "_tpl": "BSGTheft"
+                      }
+                    ],
+                    "loyaltyLevel": 1,
+                    "target": "GK_5_5_AssortReward1",
+                    "traderId": "GoblinKing",
+                    "type": "AssortmentUnlock"
+                  },
+
+                {
+                    "id": "GK_5_5_Reward_3",
+                    "index": 3,
+                    "target": "GoblinKing",
+                    "type": "TraderStanding",
+                    "value": "0.05"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "GK_5_5 startedMessageText",
+        "successMessageText": "GK_5_5 successMessageText",
+        "templateId": "GK_5_5",
+        "traderId": "GoblinKing",
+        "type": "PickUp"
+    },
+    "GK_9_5": {
+        "QuestName": "And He Said to Them, 'I Am, He.'",
+        "_id": "GK_9_5",
+        "acceptPlayerMessage": "GK_9_5 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_9_5 changeQuestMessageText",
+        "completePlayerMessage": "GK_9_5 completePlayerMessage",
+        "conditions": {
+          "AvailableForFinish": [
+            {
+              "_parent": "CounterCreator",
+              "_props": {
+                "counter": {
+                  "conditions": [
+                    {
+                      "_parent": "Kills",
+                      "_props": {
+                        "id": "GK_9_5_AFF_0_0",
+                        "savageRole": [
+                          "sectantPriest"
+                        ],
+                        "weapon": ["5bffdd7e0db834001b734a1a"],
+                        "target": "Savage"
+                      }
+                    }
+                  ],
+                  "id": "GK_2_5_AFF_0"
+                },
+                "doNotResetIfCounterCompleted": false,
+                "dynamicLocale": false,
+                "id": "GK_9_5_AFF_0",
+                "index": 0,
+                "oneSessionOnly": false,
+                "parentId": "",
+                "type": "Elimination",
+                "value": "25",
+                "visibilityConditions": []
+              },
+              "dynamicLocale": false
+            }
+          ],
+            
+          "AvailableForStart": [
+            {
+                "_parent": "Quest",
+                "_props": {
+                    "availableAfter": 0,
+                    "dynamicLocale": false,
+                    "id": "GK_9_5_AFS_1",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [4],
+                    "target": "GK_9",
+                    "visibilityConditions": []
+                },
+                "dynamicLocale": false
+            }
+          ],
+          "Fail": []
+        },
+        "description": "GK_9_5 description",
+        "failMessageText": "GK_9_5 failMessageText",
+        "image": "/files/quest/icon/gk9.5thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "GK_9_5 name",
+        "note": "GK_9_5 note",
+        "questStatus": {},
+        "restartable": false,
+        "rewards": {
+          "Fail": [],
+          "Started": [
+          ],
+          "Success": [
+            {
+              "id": "GK_9_5_Reward1",
+              "index": 2,
+              "target": "GoblinKing",
+              "type": "TraderStanding",
+              "value": "0.10"
+            },
+            {
+              "id": "GK_9_5_Reward2",
+              "index": 3,
+              "items": [
+                {
+                  "_id": "GK_9_5_AssortReward1",
+                  "_tpl": "Prisonwallet"
+                }
+              ],
+              "loyaltyLevel": 2,
+              "target": "GK_9_5_AssortReward1",
+              "traderId": "GoblinKing",
+              "type": "AssortmentUnlock"
+            }
+          ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "GK_9_5 startedMessageText",
+        "successMessageText": "GK_9_5 successMessageText",
+        "templateId": "GK_9_5",
+        "traderId": "GoblinKing",
+        "type": "Elimination"
+      },
+    "GK_18_5": {
+        "QuestName": "Charlie Don't Surf!",
+        "_id": "GK_18_5",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_18_5 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_18_5_AFF_1_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "anyPmc",
+                                        "compareMethod": ">=",
+                                        "value": "1",
+                                        "id": "GK_18_5_AFF_1_1",
+                                        "distance": {
+                                            "compareMethod": ">=",
+                                            "value": 300
+                                        }
+                                    }
+                                },
+                                {
+                                    "_parent": "Location",
+                                    "_props": {
+                                        "target": ["Shoreline"],
+                                        "id": "GK_18_5_AFF_1_2"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_18_5_AFF_1",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "20",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_20_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_18",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_18_5 description",
+        "failMessageText": "GK_18_5 failMessageText",
+        "image": "/files/quest/icon/gk18.5thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5704e554d2720bac5b8b456e",
+        "name": "GK_18_5 name",
+        "note": "GK_18_5 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "GK_18_5_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "60000"
+                },
+                {
+                    "id": "GK_18_5_Reward_2",
+                    "index": 5,
+                    "target": "GoblinKing",
+                    "type": "TraderStanding",
+                    "value": "0.05"
+                },
+                {
+                    "id": "GK_18_5_Reward_3",
+                    "type": "AssortmentUnlock",
+                    "loyaltyLevel": 4,
+                    "index": 4,
+                    "traderId": "GoblinKing",
+                    "target": "GK_18_5_AssortUnlock0",
+                    "items": [
+                        {
+                            "_id": "GK_18_5_AssortUnlock0",
+                            "_tpl": "DHS"
+                        }
+                    ]
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "GK_18_5 startedMessageText",
+        "successMessageText": "GK_18_5 successMessageText",
+        "templateId": "GK_18_5",
+        "traderId": "GoblinKing",
+        "type": "Completion"
+    },
+    "GK_26": {
+        "QuestName": "With a Beretta, Puttin All the Holes in Ya Sweata!",
+        "_id": "GK_26",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "GK_26 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                   {
+                    "_parent": "CounterCreator",
+                    "_props": {
+                        "counter": {
+                            "id": "GK_26_AFF_1_0",
+                            "conditions": [
+                                {
+                                    "_parent": "Kills",
+                                    "_props": {
+                                        "target": "Savage",
+                                        "savageRole": ["bosspunisher"],
+                                        "value": "1",
+                                        "weapon": ["5cadc190ae921500103bb3b6"],
+                                        "id": "GK_26_AFF_1_1"
+                                    }
+                                }
+                            ]
+                        },
+                        "id": "GK_26_AFF_1",
+                        "index": 0,
+                        "parentId": "",
+                        "oneSessionOnly": false,
+                        "dynamicLocale": false,
+                        "type": "Elimination",
+                        "doNotResetIfCounterCompleted": false,
+                        "value": "1",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                  "_parent": "CounterCreator",
+                  "_props": {
+                      "counter": {
+                          "id": "GK_26_AFF_2_0",
+                          "conditions": [
+                              {
+                                  "_parent": "Kills",
+                                  "_props": {
+                                      "target": "Savage",
+                                      "savageRole": ["exUsec"],
+                                      "value": "1",
+                                      "weapon": ["5cadc190ae921500103bb3b6"],
+                                      "id": "GK_26_AFF_2_1"
+                                  }
+                              }
+                          ]
+                      },
+                      "id": "GK_26_AFF_2",
+                      "index": 0,
+                      "parentId": "",
+                      "oneSessionOnly": false,
+                      "dynamicLocale": false,
+                      "type": "Elimination",
+                      "doNotResetIfCounterCompleted": false,
+                      "value": "20",
+                      "visibilityConditions": []
+                  },
+                  "dynamicLocale": false
+              }
+            ],
+            "AvailableForStart": [
+                {
+                    "_parent": "Level",
+                    "_props": {
+                        "compareMethod": ">=",
+                        "dynamicLocale": false,
+                        "id": "GK_26_AFS_0",
+                        "index": 0,
+                        "parentId": "",
+                        "value": 1,
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                },
+                {
+                    "_parent": "Quest",
+                    "_props": {
+                        "availableAfter": 0,
+                        "dynamicLocale": false,
+                        "id": "GK_26_AFS_1",
+                        "index": 1,
+                        "parentId": "",
+                        "status": [4],
+                        "target": "GK_22",
+                        "visibilityConditions": []
+                    },
+                    "dynamicLocale": false
+                }
+            ],
+            "Fail": []
+        },
+        "description": "GK_26 description",
+        "failMessageText": "GK_26 failMessageText",
+        "image": "/files/quest/icon/gk_26thumbnail.png",
+        "instantComplete": false,
+        "location": "any",
+        "isKey": false,
+        "name": "GK_26 name",
+        "note": "GK_26 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "GK_26_Reward1",
+                    "type": "AssortmentUnlock",
+                    "loyaltyLevel": 4,
+                    "index": 4,
+                    "traderId": "GoblinKing",
+                    "target": "GK_26_AssortUnlock0",
+                    "items": [
+                        {
+                            "_id": "GK_26_AssortUnlock0",
+                            "_tpl": "GC_Cerberus"
+                        }
+                    ]
+                },
+                {
+                    "value": "0.07",
+                    "id": "GK_26_Reward4",
+                    "type": "TraderStanding",
+                    "target": "GoblinKing",
+                    "index": 1
+                }
+    
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "GK_26 startedMessageText",
+        "successMessageText": "GK_26 successMessageText",
+        "templateId": "GK_26",
+        "traderId": "GoblinKing",
+        "type": "Elimination"
+        
+        
+    }
+}

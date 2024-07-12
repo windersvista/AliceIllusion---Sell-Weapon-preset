@@ -1,0 +1,131 @@
+{
+    "Items": [
+        {
+            "Id": "GoblinsIfak",
+            "ParentId": "5b47574386f77428ca22b338",
+            "Price": 1000000
+        },
+        {
+            "Id": "GoblinsMedCase",
+            "ParentId": "5b5f6fa186f77409407a7eb7",
+            "Price": 1500000
+        },
+        {
+            "Id": "GoblinsBoltHole",
+            "ParentId": "5b5f6fa186f77409407a7eb7",
+            "Price": 2150000
+        },
+        {
+            "Id": "lightningstim",
+            "ParentId": "5b47574386f77428ca22b33a",
+            "Price": 250000
+        },
+        {
+            "Id": "ElDiablosBlood",
+            "ParentId": "5b47574386f77428ca22b33a",
+            "Price": 500000
+        },
+        {
+            "Id": "GoblinKingsTrophy001",
+            "ParentId": "5b47574386f77428ca22b32f",
+            "Price": 3000000
+        },
+        {
+            "Id": "GoblinKingsTrophy002",
+            "ParentId": "5b5f6f8786f77447ed563642",
+            "Price": 3000000
+        },
+        {
+            "Id": "GoblinsBackpack",
+            "ParentId": "5b5f6f6c86f774093f2ecf0b",
+            "Price": 500000
+        },
+        {
+            "Id": "556Sludge",
+            "ParentId": "5b47574386f77428ca22b33b",
+            "Price": 1050
+        },
+        {
+            "Id": "556SludgeBox",
+            "ParentId": "5b47574386f77428ca22b33c",
+            "Price": 100000
+        },
+        {
+            "Id": "DESOXYN",
+            "ParentId": "5b47574386f77428ca22b337",
+            "Price": 800000
+        },
+        {
+            "Id": "CursedMask",
+            "ParentId": "5b47574386f77428ca22b32f",
+            "Price": 2000000
+        },
+        {
+            "Id": "GoblinsKACSR25",
+            "ParentId": "5b5f791486f774093f2ed3be",
+            "Price": 1500000
+        },
+        {
+            "Id": "c00lsh4d35",
+            "ParentId": "5b47574386f77428ca22b331",
+            "Price": 2500000
+        },
+        {
+            "Id": "CastleTux",
+            "ParentId": "5b5f701386f774093f2ecf0f",
+            "Price": 2500000
+        },
+        {
+                "Id": "NCRHelmet",
+                "ParentId": "5b47574386f77428ca22b330",
+                "Price": 250000000
+        },
+        {
+            "Id": "GCBeta1",
+            "ParentId": "5b47574386f77428ca22b32f",
+            "Price": 25000
+        },
+        {
+            "Id": "LegoHead",
+            "ParentId": "5b47574386f77428ca22b330",
+            "Price": 30000
+        },
+        {
+            "Id": "GCCerberus",
+            "ParentId": "5b5f6fd286f774093f2ecf0d",
+            "Price": 250000000
+        },
+        {
+            "Id": "MickysTac",
+            "ParentId": "5b5f6fd286f774093f2ecf0d",
+            "Price": 250000000
+        },
+        {
+            "Id": "BSGTheft",
+            "ParentId": "5b5f6fd286f774093f2ecf0d",
+            "Price": 250000000
+        },
+        {
+            "Id": "Prisonwallet",
+            "ParentId": "5b5f6fd286f774093f2ecf0d",
+            "Price": 250000000
+        },
+        {
+            "Id": "Coyote",
+            "ParentId": "5b5f6fd286f774093f2ecf0d",
+            "Price": 250000000
+        },
+        {
+            "Id": "GoblinSec",
+            "ParentId": "5b5f6fd286f774093f2ecf0d",
+            "Price": 250000000
+        },
+        {
+            "Id": "DHS",
+            "ParentId": "5b5f6fd286f774093f2ecf0d",
+            "Price": 250000000
+        }
+
+
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "manifest": [
+        {
+            "key": "assets/content/items/containers/item_container_supermed/item_container_supermed.bundle",
+            "dependencyKeys": ["cubemaps", "shaders", "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "penguinxgear/punisher_slick.bundle",
+            "dependencyKeys": ["cubemaps", "shaders", "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "assets/content/items/containers/item_container_supermed/item_container_supermed.bundle",
+            "dependencyKeys": ["cubemaps", "shaders", "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "penguinxgear/punisher_slick.bundle",
+            "dependencyKeys": ["cubemaps", "shaders", "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "goblincase.bundle",
+            "dependencyKeys": ["cubemaps", "shaders", "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "goblinmedcase.bundle",
+            "dependencyKeys": ["cubemaps", "shaders", "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "goblinbackpack.bundle",
+            "dependencyKeys": ["cubemaps", "shaders", "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {   
+            "key": "gasmaskgk.bundle",
+            "dependencyKeys": ["cubemaps",  "shaders",  "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "nvrangerhelmet.goblin",
+            "dependencyKeys": ["cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle" ]
+        },
+        {
+            "key": "legohead.bundle",
+            "dependencyKeys": ["cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "morpheusglasses.bundle",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "bsgtheft.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "mickylunchbox.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "dhslocker.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "coyotebox.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "goblinsecurity.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "prisonwallet.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "tioscloset.bundle",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },        
+        {
+            "key": "goblinsifak.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "goblinsifak_loot.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "sr25goblin.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "desoxyn.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+        {
+            "key": "desoxynloot.goblin",
+            "dependencyKeys": [ "cubemaps","shaders","assets/commonassets/physics/physicsmaterials.bundle"]
+        }
+
+
+
+    ]
+}
